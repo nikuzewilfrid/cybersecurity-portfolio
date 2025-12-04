@@ -39,5 +39,5 @@ Segmentation réseau + règles firewall.
 
 ## Contact
 **LinkedIn :** *ton lien ici*  
-**Email :** *nikuzewilfrid*  
+**Email :** *nikuzewilfrid@gmail.com*  
 **GitHub :** *ton profil ici*
