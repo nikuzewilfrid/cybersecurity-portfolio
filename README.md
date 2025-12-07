@@ -1,43 +1,83 @@
-# Portfolio Cybersécurité
-**Étudiant en Cybersécurité | Pentesting | Linux | Sécurité Réseau**
+# Cybersecurity Portfolio — Nikuzewilfrid  
+Welcome to my professional cybersecurity portfolio.  
+This repository showcases hands-on projects in **Offensive Security, SOC Analysis, Network Forensics, Linux Security**, and **Threat Detection**.
 
-Bienvenue dans mon portfolio cybersécurité.  
-Je développe un lab personnel et j’apprends les techniques d’attaque et de défense dans un environnement contrôlé.
-
-
-## Projets en Cybersécurité
-
-### 1. Pentesting Lab – Metasploitable 2
-Analyse, scan réseau, exploitation de vulnérabilités.
- [Voir le projet](./pentesting-lab/README.md)
-
-### 2. Sécurité Web – OWASP Juice Shop
-Tests: SQL Injection, XSS, brute force, scanning web.
- [Voir le projet](./web-security-owasp/README.md)
-
-### 3. Durcissement Linux (Hardening)
-Sécurisation d’un serveur Linux.
- [Voir le projet](./linux-hardening/README.md)
-
-### 4. Détection d’attaques – SIEM Wazuh
-Installation d’un SIEM + analyse d’alertes.
- [Voir le projet](./siem-wazuh/README.md)
-
-### 5. Firewall + VLAN
-Segmentation réseau + règles firewall.
- [Voir le projet](./firewall-vlan/README.md)
+I built this portfolio to demonstrate my practical skills and readiness for real-world cybersecurity challenges, including SOC environments, penetration testing workflows, and log-based threat hunting.
 
 
-## Certifications
-- Google Cybersecurity
-- IBM Cybersecurity Analyst
-- Cisco Networking / CyberOps
-- TryHackMe Badges
-- HackTheBox (machines faciles)
-- LinkedIn Learning Cybersecurity
+## Featured Skills
+- Penetration Testing & Vulnerability Scanning  
+- SIEM Workflow & Event Log Analysis  
+- Sysmon Configuration & Detection Engineering  
+- Network Traffic Analysis (DNS/HTTP/TCP/IP)  
+- Linux Hardening & Permission Management  
+- Bash Scripting for Audits  
+- Honeypot Deployment (Cowrie)
 
 
-## Contact
-**LinkedIn :** *ton lien ici*  
-**Email :** *nikuzewilfrid@gmail.com*  
-**GitHub :** *ton profil ici*
+## Portfolio Structure
+
+### 🔴 Offensive Security  
+Hands-on red team tasks focusing on reconnaissance, enumeration, and vulnerability discovery.
+
+- **Nmap Advanced Scanning**  
+- **Basic Web Vulnerability Scan (Nikto + Nmap NSE)**  
+
+
+### 🔵 SOC Analysis  
+Blue team projects simulating real-world detection workflows.
+
+- **Windows Event Log Analysis**  
+- **Sysmon Threat Detection**  
+- **SIEM Workflow & Use Cases**
+
+
+### Network Analysis  
+Deep-dive investigations into traffic behavior and protocol understanding.
+
+- **Wireshark DNS/HTTP Analysis**  
+- **TCP/IP Technical Study**
+
+
+### Linux Fundamentals  
+Core Linux security and hardening practices.
+
+- **Users, Groups & Permissions**  
+- **Bash Audit Toolkit**
+
+
+### Honeypot Project  
+A mini interactive environment simulating real attacker behavior.
+
+- **Cowrie Honeypot Attack Simulation**
+
+
+## Documentation
+- Resume (PDF)  
+- Project Reports  
+- Diagrams & Visuals  
+- Certificates
+
+
+## Purpose of This Portfolio  
+This portfolio was created to demonstrate:
+- Practical cybersecurity skills  
+- Ability to document findings clearly  
+- Capability to analyze real logs, traffic, and vulnerabilities  
+- Proficiency with essential tools:  
+  Nmap, Nikto, Wireshark, Sysmon, Event Viewer, Bash, Linux CLI
+
+
+## Contact  
+**Name:** Nikuze Wilfrid  
+**GitHub:** github.com/nikuzewilfrid  
+**Email:** *nikuzewilfrid@gmail.com*  
+**Location:** *Burundi (Open to global remote internships)*
+
+
+## About Me  
+I'm a bilingual (English–French) aspiring cybersecurity analyst with strong motivation to grow in SOC operations, incident analysis, and penetration testing.  
+This portfolio reflects my dedication, consistency, and capability to learn fast and solve complex security problems.
+
+
+Thank you for visiting!
