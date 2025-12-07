@@ -32,21 +32,21 @@ Blue team projects simulating real-world detection workflows.
 - **SIEM Workflow & Use Cases**
 
 
-### 🟣 Network Analysis  
+### Network Analysis  
 Deep-dive investigations into traffic behavior and protocol understanding.
 
 - **Wireshark DNS/HTTP Analysis**  
 - **TCP/IP Technical Study**
 
 
-### 🟢 Linux Fundamentals  
+### Linux Fundamentals  
 Core Linux security and hardening practices.
 
 - **Users, Groups & Permissions**  
 - **Bash Audit Toolkit**
 
 
-### 🟠 Honeypot Project  
+### Honeypot Project  
 A mini interactive environment simulating real attacker behavior.
 
 - **Cowrie Honeypot Attack Simulation**
