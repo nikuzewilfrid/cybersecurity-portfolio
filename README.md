@@ -17,14 +17,14 @@ I built this portfolio to demonstrate my practical skills and readiness for real
 
 ## Portfolio Structure
 
-### 🔴 Offensive Security  
+### Offensive Security  
 Hands-on red team tasks focusing on reconnaissance, enumeration, and vulnerability discovery.
 
 - **Nmap Advanced Scanning**  
 - **Basic Web Vulnerability Scan (Nikto + Nmap NSE)**  
 
 
-### 🔵 SOC Analysis  
+### SOC Analysis  
 Blue team projects simulating real-world detection workflows.
 
 - **Windows Event Log Analysis**  
