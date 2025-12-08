@@ -28,12 +28,12 @@ The toolkit is built to quickly gather security-relevant information for analysi
 - Recent log entries  
 
 ### Commands used include:
-uname -a
-ps aux
-who
-ss -tuln
-grep -i "error" /var/log/syslog
-df -h
+uname -a,
+ps aux,
+who,
+ss -tuln,
+grep -i "error" /var/log/syslog,
+df -h,
 
 
 ## Usage
