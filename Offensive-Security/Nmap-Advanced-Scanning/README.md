@@ -37,10 +37,5 @@ Executed safe NSE scripts to detect:
 Saved results to both human-readable and machine-readable files.
 
 
-## 📄 Included Files
-- **scan_results.txt** — raw Nmap output  
-- **report.pdf** — structured explanation of findings  
-
-
 ## Summary
 This project demonstrates my ability to perform professional scanning techniques, interpret results, and document them clearly, which is a core skill in both pentesting and red team preparation.
