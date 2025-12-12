@@ -52,13 +52,6 @@ A mini interactive environment simulating real attacker behavior.
 - **Cowrie Honeypot Attack Simulation**
 
 
-## Documentation
-- Resume (PDF)  
-- Project Reports  
-- Diagrams & Visuals  
-- Certificates
-
-
 ## Purpose of This Portfolio  
 This portfolio was created to demonstrate:
 - Practical cybersecurity skills  
