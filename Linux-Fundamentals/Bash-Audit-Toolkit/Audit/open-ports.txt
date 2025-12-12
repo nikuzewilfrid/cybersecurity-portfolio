@@ -1,0 +1,4 @@
+Connexions Internet actives (seulement serveurs)
+Proto Recv-Q Send-Q Adresse locale          Adresse distante        Etat        PID/Program name    
+tcp        0      0 127.0.0.1:39103         0.0.0.0:*               LISTEN      922/containerd      
+tcp        0      0 127.0.0.1:9050          0.0.0.0:*               LISTEN      961/tor             

@@ -1,0 +1,1230 @@
+déc. 12 09:11:49 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523509.4945] device (p2p-dev-wlan0): supplicant management interface state: scanning -> authenticating
+déc. 12 09:11:49 Nerenaldo4-kali wpa_supplicant[857]: wlan0: Trying to associate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:11:49 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523509.5038] device (wlan0): supplicant interface state: authenticating -> associating
+déc. 12 09:11:49 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523509.5039] device (p2p-dev-wlan0): supplicant management interface state: authenticating -> associating
+déc. 12 09:11:49 Nerenaldo4-kali kernel: wlan0: authenticated
+déc. 12 09:11:49 Nerenaldo4-kali kernel: wlan0: associate with 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:11:49 Nerenaldo4-kali kernel: wlan0: associate with 48:22:54:6b:49:c5 (try 2/3)
+déc. 12 09:11:49 Nerenaldo4-kali kernel: wlan0: associate with 48:22:54:6b:49:c5 (try 3/3)
+déc. 12 09:11:49 Nerenaldo4-kali wpa_supplicant[857]: wlan0: Associated with 48:22:54:6b:49:c5
+déc. 12 09:11:49 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+déc. 12 09:11:49 Nerenaldo4-kali kernel: wlan0: RX AssocResp from 48:22:54:6b:49:c5 (capab=0x1c11 status=0 aid=19)
+déc. 12 09:11:49 Nerenaldo4-kali kernel: wlan0: associated
+déc. 12 09:11:49 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523509.8992] device (wlan0): supplicant interface state: associating -> associated
+déc. 12 09:11:49 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523509.8992] device (p2p-dev-wlan0): supplicant management interface state: associating -> associated
+déc. 12 09:11:50 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523510.0840] device (wlan0): supplicant interface state: associated -> 4way_handshake
+déc. 12 09:11:50 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523510.0841] device (p2p-dev-wlan0): supplicant management interface state: associated -> 4way_handshake
+déc. 12 09:11:51 Nerenaldo4-kali wpa_supplicant[857]: wlan0: WPA: Key negotiation completed with 48:22:54:6b:49:c5 [PTK=CCMP GTK=CCMP]
+déc. 12 09:11:51 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-CONNECTED - Connection to 48:22:54:6b:49:c5 completed [id=0 id_str=]
+déc. 12 09:11:51 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523511.1108] device (wlan0): supplicant interface state: 4way_handshake -> completed
+déc. 12 09:11:51 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523511.1112] device (wlan0): ip:dhcp4: restarting
+déc. 12 09:11:51 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523511.1284] dhcp4 (wlan0): canceled DHCP transaction
+déc. 12 09:11:51 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523511.1284] dhcp4 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+déc. 12 09:11:51 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523511.1284] dhcp4 (wlan0): state changed no lease
+déc. 12 09:11:51 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523511.1286] dhcp4 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+déc. 12 09:11:51 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523511.1288] device (p2p-dev-wlan0): supplicant management interface state: 4way_handshake -> completed
+déc. 12 09:11:53 Nerenaldo4-kali systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+déc. 12 09:11:55 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-BEACON-LOSS
+déc. 12 09:12:05 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523525.8848] dhcp4 (wlan0): state changed no lease
+déc. 12 09:12:09 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523529.0705] dhcp4 (wlan0): state changed new lease, address=192.168.0.121, acd pending
+déc. 12 09:12:09 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523529.2044] dhcp4 (wlan0): state changed new lease, address=192.168.0.121
+déc. 12 09:12:09 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523529.2071] policy: set ' WIFI-SINAI  HOTEL' (wlan0) as default for IPv4 routing and DNS
+déc. 12 09:12:09 Nerenaldo4-kali dbus-daemon[546]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.5' (uid=0 pid=762 comm="/usr/sbin/NetworkManager --no-daemon")
+déc. 12 09:12:09 Nerenaldo4-kali systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+░░ Subject: L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer.
+déc. 12 09:12:09 Nerenaldo4-kali dbus-daemon[546]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+déc. 12 09:12:09 Nerenaldo4-kali systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+░░ Subject: L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage, avec le résultat done.
+déc. 12 09:12:19 Nerenaldo4-kali systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+déc. 12 09:12:31 Nerenaldo4-kali systemd-timesyncd[368]: Contacted time server 196.10.54.57:123 (0.debian.pool.ntp.org).
+déc. 12 09:12:50 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-BEACON-LOSS
+déc. 12 09:12:55 Nerenaldo4-kali dbus-daemon[546]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.77' (uid=1000 pid=31192 comm="/opt/google/chrome/chrome")
+déc. 12 09:12:55 Nerenaldo4-kali dbus-daemon[546]: [system] Activation via systemd failed for unit 'dbus-org.bluez.service': Unit dbus-org.bluez.service not found.
+déc. 12 09:12:55 Nerenaldo4-kali kernel: warning: `ThreadPoolForeg' uses wireless extensions which will stop working for Wi-Fi 7 hardware; use nl80211
+déc. 12 09:12:56 Nerenaldo4-kali gnome-keyring-daemon[1744]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+déc. 12 09:12:56 Nerenaldo4-kali gnome-keyring-d[1744]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+déc. 12 09:13:02 Nerenaldo4-kali systemd[1710]: Started app-com.google.Chrome-31192.scope.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+déc. 12 09:13:13 Nerenaldo4-kali systemd[1]: Started pcscd.service - PC/SC Smart Card Daemon.
+░░ Subject: L'unité (unit) pcscd.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) pcscd.service a terminé son démarrage, avec le résultat done.
+déc. 12 09:13:29 Nerenaldo4-kali chrome[31192]: [31192:31255:1212/091329.510686:INFO:chrome/browser/extensions/extension_garbage_collector.cc:184] Garbage collection for extensions on file thread is complete.
+déc. 12 09:14:19 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-BEACON-LOSS
+déc. 12 09:14:20 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-DISCONNECTED bssid=48:22:54:6b:49:c5 reason=4 locally_generated=1
+déc. 12 09:14:20 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+déc. 12 09:14:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523660.3346] device (wlan0): supplicant interface state: completed -> disconnected
+déc. 12 09:14:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523660.3347] device (p2p-dev-wlan0): supplicant management interface state: completed -> disconnected
+déc. 12 09:14:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523660.4328] device (wlan0): supplicant interface state: disconnected -> scanning
+déc. 12 09:14:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523660.4328] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+déc. 12 09:14:21 Nerenaldo4-kali wpa_supplicant[857]: wlan0: SME: Trying to authenticate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:14:21 Nerenaldo4-kali kernel: wlan0: authenticate with 48:22:54:6b:49:c5 (local address=c4:17:fe:b7:dd:b1)
+déc. 12 09:14:21 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:14:21 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523661.5295] device (wlan0): supplicant interface state: scanning -> authenticating
+déc. 12 09:14:21 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523661.5305] device (p2p-dev-wlan0): supplicant management interface state: scanning -> authenticating
+déc. 12 09:14:21 Nerenaldo4-kali wpa_supplicant[857]: wlan0: Trying to associate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:14:21 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523661.5400] device (wlan0): supplicant interface state: authenticating -> associating
+déc. 12 09:14:21 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523661.5401] device (p2p-dev-wlan0): supplicant management interface state: authenticating -> associating
+déc. 12 09:14:21 Nerenaldo4-kali kernel: wlan0: authenticated
+déc. 12 09:14:21 Nerenaldo4-kali kernel: wlan0: associate with 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:14:21 Nerenaldo4-kali kernel: wlan0: associate with 48:22:54:6b:49:c5 (try 2/3)
+déc. 12 09:14:21 Nerenaldo4-kali kernel: wlan0: associate with 48:22:54:6b:49:c5 (try 3/3)
+déc. 12 09:14:22 Nerenaldo4-kali kernel: wlan0: association with 48:22:54:6b:49:c5 timed out
+déc. 12 09:14:22 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523662.0881] device (wlan0): supplicant interface state: associating -> disconnected
+déc. 12 09:14:22 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523662.0882] device (p2p-dev-wlan0): supplicant management interface state: associating -> disconnected
+déc. 12 09:14:22 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523662.5979] device (wlan0): supplicant interface state: disconnected -> scanning
+déc. 12 09:14:22 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523662.5979] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+déc. 12 09:14:23 Nerenaldo4-kali wpa_supplicant[857]: wlan0: SME: Trying to authenticate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:14:23 Nerenaldo4-kali kernel: wlan0: authenticate with 48:22:54:6b:49:c5 (local address=c4:17:fe:b7:dd:b1)
+déc. 12 09:14:23 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:14:23 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523663.6943] device (wlan0): supplicant interface state: scanning -> authenticating
+déc. 12 09:14:23 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523663.6944] device (p2p-dev-wlan0): supplicant management interface state: scanning -> authenticating
+déc. 12 09:14:23 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 2/3)
+déc. 12 09:14:24 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 3/3)
+déc. 12 09:14:24 Nerenaldo4-kali kernel: wlan0: authentication with 48:22:54:6b:49:c5 timed out
+déc. 12 09:14:24 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523664.4131] device (wlan0): supplicant interface state: authenticating -> disconnected
+déc. 12 09:14:24 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523664.4132] device (p2p-dev-wlan0): supplicant management interface state: authenticating -> disconnected
+déc. 12 09:14:25 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523665.4392] device (wlan0): supplicant interface state: disconnected -> scanning
+déc. 12 09:14:25 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523665.4393] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+déc. 12 09:14:26 Nerenaldo4-kali wpa_supplicant[857]: wlan0: SME: Trying to authenticate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:14:26 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523666.5269] device (wlan0): supplicant interface state: scanning -> authenticating
+déc. 12 09:14:26 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523666.5270] device (p2p-dev-wlan0): supplicant management interface state: scanning -> authenticating
+déc. 12 09:14:26 Nerenaldo4-kali kernel: wlan0: authenticate with 48:22:54:6b:49:c5 (local address=c4:17:fe:b7:dd:b1)
+déc. 12 09:14:26 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:14:26 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 2/3)
+déc. 12 09:14:26 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 3/3)
+déc. 12 09:14:27 Nerenaldo4-kali kernel: wlan0: authentication with 48:22:54:6b:49:c5 timed out
+déc. 12 09:14:27 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-SSID-TEMP-DISABLED id=0 ssid=" WIFI-SINAI  HOTEL" auth_failures=1 duration=10 reason=CONN_FAILED
+déc. 12 09:14:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523667.1050] device (wlan0): supplicant interface state: authenticating -> disconnected
+déc. 12 09:14:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523667.1051] device (p2p-dev-wlan0): supplicant management interface state: authenticating -> disconnected
+déc. 12 09:14:32 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523672.1255] device (wlan0): supplicant interface state: disconnected -> scanning
+déc. 12 09:14:32 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523672.1256] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+déc. 12 09:14:35 Nerenaldo4-kali NetworkManager[762]: <warn>  [1765523675.8844] device (wlan0): link timed out.
+déc. 12 09:14:35 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523675.8850] device (wlan0): state change: activated -> failed (reason 'supplicant-timeout', managed-type: 'full')
+déc. 12 09:14:35 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523675.9222] device (wlan0): set-hw-addr: set MAC address to 0A:BD:84:E9:B7:AF (scanning)
+déc. 12 09:14:35 Nerenaldo4-kali NetworkManager[762]: <warn>  [1765523675.9353] device (wlan0): Activation: failed for connection ' WIFI-SINAI  HOTEL'
+déc. 12 09:14:35 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523675.9377] manager: NetworkManager state is now CONNECTED_LOCAL
+déc. 12 09:14:35 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523675.9387] device (wlan0): supplicant interface state: scanning -> interface_disabled
+déc. 12 09:14:35 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523675.9391] device (p2p-dev-wlan0): supplicant management interface state: scanning -> interface_disabled
+déc. 12 09:14:35 Nerenaldo4-kali dbus-daemon[546]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.5' (uid=0 pid=762 comm="/usr/sbin/NetworkManager --no-daemon")
+déc. 12 09:14:35 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523675.9654] device (wlan0): state change: failed -> disconnected (reason 'none', managed-type: 'full')
+déc. 12 09:14:35 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523675.9663] dhcp4 (wlan0): canceled DHCP transaction
+déc. 12 09:14:35 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523675.9663] dhcp4 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+déc. 12 09:14:35 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523675.9664] dhcp4 (wlan0): state changed no lease
+déc. 12 09:14:35 Nerenaldo4-kali systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+░░ Subject: L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer.
+déc. 12 09:14:36 Nerenaldo4-kali dbus-daemon[546]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+déc. 12 09:14:36 Nerenaldo4-kali systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+░░ Subject: L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage, avec le résultat done.
+déc. 12 09:14:36 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523676.0979] device (wlan0): supplicant interface state: interface_disabled -> scanning
+déc. 12 09:14:36 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523676.1012] device (p2p-dev-wlan0): supplicant management interface state: interface_disabled -> scanning
+déc. 12 09:14:37 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523677.1174] device (wlan0): supplicant interface state: scanning -> disconnected
+déc. 12 09:14:37 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523677.1175] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+déc. 12 09:14:38 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523678.1960] device (wlan0): supplicant interface state: disconnected -> inactive
+déc. 12 09:14:38 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523678.1960] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> inactive
+déc. 12 09:14:46 Nerenaldo4-kali systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+déc. 12 09:14:47 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523687.9858] policy: auto-activating connection ' WIFI-SINAI  HOTEL' (5a5e7d14-23b2-4637-a1e1-4a90811b24b8)
+déc. 12 09:14:47 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523687.9882] device (wlan0): Activation: starting connection ' WIFI-SINAI  HOTEL' (5a5e7d14-23b2-4637-a1e1-4a90811b24b8)
+déc. 12 09:14:47 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523687.9889] device (wlan0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+déc. 12 09:14:47 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523687.9894] manager: NetworkManager state is now CONNECTING
+déc. 12 09:14:48 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523688.0163] device (wlan0): set-hw-addr: reset MAC address to C4:17:FE:B7:DD:B1 (preserve)
+déc. 12 09:14:48 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523688.0275] device (wlan0): state change: prepare -> config (reason 'none', managed-type: 'full')
+déc. 12 09:14:48 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523688.0280] device (wlan0): Activation: (wifi) access point ' WIFI-SINAI  HOTEL' has security, but secrets are required.
+déc. 12 09:14:48 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523688.0281] device (wlan0): state change: config -> need-auth (reason 'none', managed-type: 'full')
+déc. 12 09:14:48 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523688.0292] sup-iface[2e096671462c8b0e,0,wlan0]: wps: type pbc start...
+déc. 12 09:14:48 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523688.0299] device (wlan0): supplicant interface state: inactive -> interface_disabled
+déc. 12 09:14:48 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523688.0303] device (p2p-dev-wlan0): supplicant management interface state: inactive -> interface_disabled
+déc. 12 09:14:48 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523688.0321] device (wlan0): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+déc. 12 09:14:48 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523688.0330] device (wlan0): state change: prepare -> config (reason 'none', managed-type: 'full')
+déc. 12 09:14:48 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523688.0339] device (wlan0): Activation: (wifi) connection ' WIFI-SINAI  HOTEL' has security, and secrets exist.  No new secrets needed.
+déc. 12 09:14:48 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523688.0343] Config: added 'ssid' value ' WIFI-SINAI  HOTEL'
+déc. 12 09:14:48 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523688.0346] Config: added 'scan_ssid' value '1'
+déc. 12 09:14:48 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523688.0349] Config: added 'bgscan' value 'simple:30:-70:86400'
+déc. 12 09:14:48 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523688.0351] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+déc. 12 09:14:48 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523688.0354] Config: added 'auth_alg' value 'OPEN'
+déc. 12 09:14:48 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523688.0355] Config: added 'psk' value '<hidden>'
+déc. 12 09:14:48 Nerenaldo4-kali wpa_supplicant[857]: wlan0: WPS-CANCEL
+déc. 12 09:14:48 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523688.0509] device (wlan0): supplicant interface state: interface_disabled -> inactive
+déc. 12 09:14:48 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523688.0514] device (p2p-dev-wlan0): supplicant management interface state: interface_disabled -> inactive
+déc. 12 09:14:48 Nerenaldo4-kali wpa_supplicant[857]: wlan0: SME: Trying to authenticate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:14:48 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523688.0864] device (wlan0): supplicant interface state: inactive -> authenticating
+déc. 12 09:14:48 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523688.0865] device (p2p-dev-wlan0): supplicant management interface state: inactive -> authenticating
+déc. 12 09:14:48 Nerenaldo4-kali kernel: wlan0: authenticate with 48:22:54:6b:49:c5 (local address=c4:17:fe:b7:dd:b1)
+déc. 12 09:14:48 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:14:48 Nerenaldo4-kali wpa_supplicant[857]: wlan0: Trying to associate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:14:48 Nerenaldo4-kali kernel: wlan0: authenticated
+déc. 12 09:14:48 Nerenaldo4-kali kernel: wlan0: associate with 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:14:48 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523688.0977] device (wlan0): supplicant interface state: authenticating -> associating
+déc. 12 09:14:48 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523688.0977] device (p2p-dev-wlan0): supplicant management interface state: authenticating -> associating
+déc. 12 09:14:48 Nerenaldo4-kali wpa_supplicant[857]: wlan0: Associated with 48:22:54:6b:49:c5
+déc. 12 09:14:48 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+déc. 12 09:14:48 Nerenaldo4-kali kernel: wlan0: RX AssocResp from 48:22:54:6b:49:c5 (capab=0x1c11 status=0 aid=6)
+déc. 12 09:14:48 Nerenaldo4-kali kernel: wlan0: associated
+déc. 12 09:14:48 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523688.1238] device (wlan0): supplicant interface state: associating -> associated
+déc. 12 09:14:48 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523688.1239] device (p2p-dev-wlan0): supplicant management interface state: associating -> associated
+déc. 12 09:14:48 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523688.2742] device (wlan0): supplicant interface state: associated -> 4way_handshake
+déc. 12 09:14:48 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523688.2742] device (p2p-dev-wlan0): supplicant management interface state: associated -> 4way_handshake
+déc. 12 09:14:49 Nerenaldo4-kali wpa_supplicant[857]: wlan0: WPA: Key negotiation completed with 48:22:54:6b:49:c5 [PTK=CCMP GTK=CCMP]
+déc. 12 09:14:49 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-CONNECTED - Connection to 48:22:54:6b:49:c5 completed [id=0 id_str=]
+déc. 12 09:14:49 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523689.4265] device (wlan0): supplicant interface state: 4way_handshake -> completed
+déc. 12 09:14:49 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523689.4265] device (wlan0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network " WIFI-SINAI  HOTEL"
+déc. 12 09:14:49 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523689.4266] device (p2p-dev-wlan0): supplicant management interface state: 4way_handshake -> completed
+déc. 12 09:14:49 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523689.4269] device (wlan0): state change: config -> ip-config (reason 'none', managed-type: 'full')
+déc. 12 09:14:49 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523689.4277] dhcp4 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+déc. 12 09:14:50 Nerenaldo4-kali wpa_supplicant[857]: wlan0: WPA: Key negotiation completed with 48:22:54:6b:49:c5 [PTK=CCMP GTK=CCMP]
+déc. 12 09:14:52 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523692.7649] dhcp4 (wlan0): state changed new lease, address=192.168.0.121, acd pending
+déc. 12 09:14:52 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523692.9404] dhcp4 (wlan0): state changed new lease, address=192.168.0.121
+déc. 12 09:14:52 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523692.9422] policy: set ' WIFI-SINAI  HOTEL' (wlan0) as default for IPv4 routing and DNS
+déc. 12 09:14:53 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523693.0410] device (wlan0): state change: ip-config -> ip-check (reason 'none', managed-type: 'full')
+déc. 12 09:14:53 Nerenaldo4-kali dbus-daemon[546]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.5' (uid=0 pid=762 comm="/usr/sbin/NetworkManager --no-daemon")
+déc. 12 09:14:53 Nerenaldo4-kali systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+░░ Subject: L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer.
+déc. 12 09:14:53 Nerenaldo4-kali dbus-daemon[546]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+déc. 12 09:14:53 Nerenaldo4-kali systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+░░ Subject: L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage, avec le résultat done.
+déc. 12 09:14:53 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523693.1092] device (wlan0): state change: ip-check -> secondaries (reason 'none', managed-type: 'full')
+déc. 12 09:14:53 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523693.1096] device (wlan0): state change: secondaries -> activated (reason 'none', managed-type: 'full')
+déc. 12 09:14:53 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523693.1102] manager: NetworkManager state is now CONNECTED_SITE
+déc. 12 09:14:53 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523693.1111] device (wlan0): Activation: successful, device activated.
+déc. 12 09:14:53 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523693.1119] manager: NetworkManager state is now CONNECTED_GLOBAL
+déc. 12 09:14:54 Nerenaldo4-kali systemd[1710]: app-com.google.Chrome-31192.scope: Consumed 16.268s CPU time over 1min 52.275s wall clock time, 117.5M memory peak.
+░░ Subject: Ressources consommées durant l'éxécution de l'unité (unit)
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT s'est arrêtée et a consommé les ressources indiquées.
+déc. 12 09:14:57 Nerenaldo4-kali dbus-daemon[546]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.81' (uid=1000 pid=32413 comm="/opt/google/chrome/chrome")
+déc. 12 09:14:57 Nerenaldo4-kali dbus-daemon[546]: [system] Activation via systemd failed for unit 'dbus-org.bluez.service': Unit dbus-org.bluez.service not found.
+déc. 12 09:14:57 Nerenaldo4-kali gnome-keyring-daemon[1744]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+déc. 12 09:14:57 Nerenaldo4-kali gnome-keyring-d[1744]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+déc. 12 09:14:57 Nerenaldo4-kali systemd[1710]: Started app-com.google.Chrome-32413.scope.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+déc. 12 09:15:01 Nerenaldo4-kali CRON[32564]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+déc. 12 09:15:01 Nerenaldo4-kali CRON[32566]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+déc. 12 09:15:01 Nerenaldo4-kali CRON[32564]: pam_unix(cron:session): session closed for user root
+déc. 12 09:15:03 Nerenaldo4-kali systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+déc. 12 09:15:27 Nerenaldo4-kali chrome[32413]: [32413:32436:1212/091527.579243:INFO:chrome/browser/extensions/extension_garbage_collector.cc:184] Garbage collection for extensions on file thread is complete.
+déc. 12 09:15:44 Nerenaldo4-kali kernel: [UFW BLOCK] IN=wlan0 OUT= MAC=c4:17:fe:b7:dd:b1:48:22:54:6b:49:c5:08:00 SRC=172.217.170.163 DST=192.168.0.121 LEN=100 TOS=0x00 PREC=0x60 TTL=56 ID=0 DF PROTO=UDP SPT=443 DPT=52656 LEN=80 
+déc. 12 09:16:39 Nerenaldo4-kali kernel: [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:48:22:54:6b:49:c5:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=6011 PROTO=2 
+déc. 12 09:17:01 Nerenaldo4-kali CRON[33565]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+déc. 12 09:17:01 Nerenaldo4-kali CRON[33567]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+déc. 12 09:17:01 Nerenaldo4-kali CRON[33565]: pam_unix(cron:session): session closed for user root
+déc. 12 09:17:07 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-BEACON-LOSS
+déc. 12 09:17:08 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-DISCONNECTED bssid=48:22:54:6b:49:c5 reason=4 locally_generated=1
+déc. 12 09:17:08 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+déc. 12 09:17:08 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523828.4920] device (wlan0): supplicant interface state: completed -> disconnected
+déc. 12 09:17:08 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523828.4921] device (p2p-dev-wlan0): supplicant management interface state: completed -> disconnected
+déc. 12 09:17:08 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523828.6033] device (wlan0): supplicant interface state: disconnected -> scanning
+déc. 12 09:17:08 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523828.6034] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+déc. 12 09:17:09 Nerenaldo4-kali wpa_supplicant[857]: wlan0: SME: Trying to authenticate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:17:09 Nerenaldo4-kali kernel: wlan0: authenticate with 48:22:54:6b:49:c5 (local address=c4:17:fe:b7:dd:b1)
+déc. 12 09:17:09 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:17:09 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523829.6888] device (wlan0): supplicant interface state: scanning -> authenticating
+déc. 12 09:17:09 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523829.6889] device (p2p-dev-wlan0): supplicant management interface state: scanning -> authenticating
+déc. 12 09:17:09 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 2/3)
+déc. 12 09:17:09 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 3/3)
+déc. 12 09:17:10 Nerenaldo4-kali wpa_supplicant[857]: wlan0: Trying to associate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:17:10 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523830.1182] device (wlan0): supplicant interface state: authenticating -> associating
+déc. 12 09:17:10 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523830.1183] device (p2p-dev-wlan0): supplicant management interface state: authenticating -> associating
+déc. 12 09:17:10 Nerenaldo4-kali kernel: wlan0: authenticated
+déc. 12 09:17:10 Nerenaldo4-kali kernel: wlan0: associate with 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:17:10 Nerenaldo4-kali kernel: wlan0: RX AssocResp from 48:22:54:6b:49:c5 (capab=0x1c11 status=0 aid=6)
+déc. 12 09:17:10 Nerenaldo4-kali kernel: wlan0: associated
+déc. 12 09:17:10 Nerenaldo4-kali wpa_supplicant[857]: wlan0: Associated with 48:22:54:6b:49:c5
+déc. 12 09:17:10 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+déc. 12 09:17:10 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523830.1763] device (wlan0): supplicant interface state: associating -> associated
+déc. 12 09:17:10 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523830.1764] device (p2p-dev-wlan0): supplicant management interface state: associating -> associated
+déc. 12 09:17:10 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523830.2983] device (wlan0): supplicant interface state: associated -> 4way_handshake
+déc. 12 09:17:10 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523830.2985] device (p2p-dev-wlan0): supplicant management interface state: associated -> 4way_handshake
+déc. 12 09:17:10 Nerenaldo4-kali wpa_supplicant[857]: wlan0: WPA: Key negotiation completed with 48:22:54:6b:49:c5 [PTK=CCMP GTK=CCMP]
+déc. 12 09:17:10 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-CONNECTED - Connection to 48:22:54:6b:49:c5 completed [id=0 id_str=]
+déc. 12 09:17:10 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523830.3396] device (wlan0): supplicant interface state: 4way_handshake -> completed
+déc. 12 09:17:10 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523830.3408] device (wlan0): ip:dhcp4: restarting
+déc. 12 09:17:10 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523830.3410] dhcp4 (wlan0): canceled DHCP transaction
+déc. 12 09:17:10 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523830.3410] dhcp4 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+déc. 12 09:17:10 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523830.3411] dhcp4 (wlan0): state changed no lease
+déc. 12 09:17:10 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523830.3412] dhcp4 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+déc. 12 09:17:10 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523830.3415] device (p2p-dev-wlan0): supplicant management interface state: 4way_handshake -> completed
+déc. 12 09:17:12 Nerenaldo4-kali systemd-timesyncd[368]: Contacted time server 196.49.6.67:123 (2.debian.pool.ntp.org).
+déc. 12 09:17:23 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523843.8977] dhcp4 (wlan0): state changed new lease, address=192.168.0.121, acd pending
+déc. 12 09:17:23 Nerenaldo4-kali NetworkManager[762]: <info>  [1765523843.8983] dhcp4 (wlan0): state changed new lease, address=192.168.0.121
+déc. 12 09:17:23 Nerenaldo4-kali dbus-daemon[546]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.5' (uid=0 pid=762 comm="/usr/sbin/NetworkManager --no-daemon")
+déc. 12 09:17:23 Nerenaldo4-kali systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+░░ Subject: L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer.
+déc. 12 09:17:24 Nerenaldo4-kali dbus-daemon[546]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+déc. 12 09:17:24 Nerenaldo4-kali systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+░░ Subject: L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage, avec le résultat done.
+déc. 12 09:17:34 Nerenaldo4-kali systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+déc. 12 09:18:42 Nerenaldo4-kali kernel: [UFW BLOCK] IN=wlan0 OUT= MAC=c4:17:fe:b7:dd:b1:dc:8b:28:79:d8:62:08:00 SRC=192.168.0.116 DST=192.168.0.121 LEN=52 TOS=0x00 PREC=0x00 TTL=128 ID=18354 DF PROTO=TCP SPT=63773 DPT=7680 WINDOW=64240 RES=0x00 SYN URGP=0 
+déc. 12 09:18:42 Nerenaldo4-kali kernel: [UFW BLOCK] IN=wlan0 OUT= MAC=c4:17:fe:b7:dd:b1:dc:8b:28:79:d8:62:08:00 SRC=192.168.0.116 DST=192.168.0.121 LEN=52 TOS=0x00 PREC=0x00 TTL=128 ID=18355 DF PROTO=TCP SPT=63773 DPT=7680 WINDOW=64240 RES=0x00 SYN URGP=0 
+déc. 12 09:18:45 Nerenaldo4-kali kernel: [UFW BLOCK] IN=wlan0 OUT= MAC=c4:17:fe:b7:dd:b1:dc:8b:28:79:d8:62:08:00 SRC=192.168.0.116 DST=192.168.0.121 LEN=52 TOS=0x00 PREC=0x00 TTL=128 ID=18356 DF PROTO=TCP SPT=63773 DPT=7680 WINDOW=64240 RES=0x00 SYN URGP=0 
+déc. 12 09:18:48 Nerenaldo4-kali kernel: [UFW BLOCK] IN=wlan0 OUT= MAC=c4:17:fe:b7:dd:b1:dc:8b:28:79:d8:62:08:00 SRC=192.168.0.116 DST=192.168.0.121 LEN=52 TOS=0x00 PREC=0x00 TTL=128 ID=18357 DF PROTO=TCP SPT=63773 DPT=7680 WINDOW=64240 RES=0x00 SYN URGP=0 
+déc. 12 09:19:42 Nerenaldo4-kali kernel: [UFW BLOCK] IN=wlan0 OUT= MAC=c4:17:fe:b7:dd:b1:48:22:54:6b:49:c5:08:00 SRC=216.58.223.110 DST=192.168.0.121 LEN=68 TOS=0x00 PREC=0x60 TTL=56 ID=0 DF PROTO=UDP SPT=443 DPT=44766 LEN=48 
+déc. 12 09:20:06 Nerenaldo4-kali systemd-timesyncd[368]: Timed out waiting for reply from 196.49.6.67:123 (2.debian.pool.ntp.org).
+déc. 12 09:20:16 Nerenaldo4-kali systemd-timesyncd[368]: Timed out waiting for reply from 160.119.216.206:123 (2.debian.pool.ntp.org).
+déc. 12 09:20:26 Nerenaldo4-kali systemd-timesyncd[368]: Timed out waiting for reply from 102.64.113.152:123 (2.debian.pool.ntp.org).
+déc. 12 09:20:37 Nerenaldo4-kali systemd-timesyncd[368]: Timed out waiting for reply from 41.205.143.146:123 (2.debian.pool.ntp.org).
+déc. 12 09:20:38 Nerenaldo4-kali smartd[553]: Device: /dev/sda [SAT], 1 Currently unreadable (pending) sectors
+déc. 12 09:20:38 Nerenaldo4-kali smartd[553]: Device: /dev/sda [SAT], 1 Offline uncorrectable sectors
+déc. 12 09:20:38 Nerenaldo4-kali smartd[553]: Device: /dev/sda [SAT], SMART Usage Attribute: 188 Command_Timeout changed from 99 to 100
+déc. 12 09:20:38 Nerenaldo4-kali smartd[553]: Device: /dev/sda [SAT], SMART Usage Attribute: 190 Airflow_Temperature_Cel changed from 53 to 52
+déc. 12 09:20:38 Nerenaldo4-kali smartd[553]: Device: /dev/sda [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 47 to 48
+déc. 12 09:20:38 Nerenaldo4-kali smartd[553]: Device: /dev/sda [SAT], SMART Usage Attribute: 195 Hardware_ECC_Recovered changed from 58 to 57
+déc. 12 09:20:49 Nerenaldo4-kali kernel: [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:48:22:54:6b:49:c5:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x12 PREC=0x60 TTL=1 ID=44981 PROTO=2 
+déc. 12 09:20:50 Nerenaldo4-kali systemd-timesyncd[368]: Timed out waiting for reply from 196.49.100.57:123 (3.debian.pool.ntp.org).
+déc. 12 09:20:51 Nerenaldo4-kali systemd-timesyncd[368]: Contacted time server 102.216.37.100:123 (3.debian.pool.ntp.org).
+déc. 12 09:20:52 Nerenaldo4-kali kernel: [UFW BLOCK] IN=wlan0 OUT= MAC=c4:17:fe:b7:dd:b1:dc:8b:28:79:d8:62:08:00 SRC=192.168.0.116 DST=192.168.0.121 LEN=52 TOS=0x00 PREC=0x00 TTL=128 ID=18361 DF PROTO=TCP SPT=63821 DPT=7680 WINDOW=64240 RES=0x00 SYN URGP=0 
+déc. 12 09:20:55 Nerenaldo4-kali kernel: [UFW BLOCK] IN=wlan0 OUT= MAC=c4:17:fe:b7:dd:b1:dc:8b:28:79:d8:62:08:00 SRC=192.168.0.116 DST=192.168.0.121 LEN=52 TOS=0x00 PREC=0x00 TTL=128 ID=18362 DF PROTO=TCP SPT=63821 DPT=7680 WINDOW=64240 RES=0x00 SYN URGP=0 
+déc. 12 09:21:02 Nerenaldo4-kali kernel: [UFW BLOCK] IN=wlan0 OUT= MAC=c4:17:fe:b7:dd:b1:dc:8b:28:79:d8:62:08:00 SRC=192.168.0.116 DST=192.168.0.121 LEN=52 TOS=0x00 PREC=0x00 TTL=128 ID=18363 DF PROTO=TCP SPT=63821 DPT=7680 WINDOW=64240 RES=0x00 SYN URGP=0 
+déc. 12 09:22:10 Nerenaldo4-kali wpa_supplicant[857]: wlan0: Reject scan trigger since one is already pending
+déc. 12 09:22:41 Nerenaldo4-kali systemd-timesyncd[368]: Timed out waiting for reply from 102.216.37.100:123 (3.debian.pool.ntp.org).
+déc. 12 09:22:41 Nerenaldo4-kali systemd-timesyncd[368]: Contacted time server 196.192.32.7:123 (3.debian.pool.ntp.org).
+déc. 12 09:22:54 Nerenaldo4-kali kernel: [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:48:22:54:6b:49:c5:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x14 PREC=0x20 TTL=1 ID=64466 PROTO=2 
+déc. 12 09:23:00 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-BEACON-LOSS
+déc. 12 09:23:01 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-DISCONNECTED bssid=48:22:54:6b:49:c5 reason=4 locally_generated=1
+déc. 12 09:23:01 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+déc. 12 09:23:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524181.4908] device (wlan0): supplicant interface state: completed -> disconnected
+déc. 12 09:23:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524181.4908] device (p2p-dev-wlan0): supplicant management interface state: completed -> disconnected
+déc. 12 09:23:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524181.5936] device (wlan0): supplicant interface state: disconnected -> scanning
+déc. 12 09:23:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524181.5936] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+déc. 12 09:23:02 Nerenaldo4-kali wpa_supplicant[857]: wlan0: SME: Trying to authenticate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:23:02 Nerenaldo4-kali kernel: wlan0: authenticate with 48:22:54:6b:49:c5 (local address=c4:17:fe:b7:dd:b1)
+déc. 12 09:23:02 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:23:02 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524182.6815] device (wlan0): supplicant interface state: scanning -> authenticating
+déc. 12 09:23:02 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524182.6815] device (p2p-dev-wlan0): supplicant management interface state: scanning -> authenticating
+déc. 12 09:23:02 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 2/3)
+déc. 12 09:23:03 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 3/3)
+déc. 12 09:23:03 Nerenaldo4-kali kernel: wlan0: authentication with 48:22:54:6b:49:c5 timed out
+déc. 12 09:23:03 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524183.1442] device (wlan0): supplicant interface state: authenticating -> disconnected
+déc. 12 09:23:03 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524183.1444] device (p2p-dev-wlan0): supplicant management interface state: authenticating -> disconnected
+déc. 12 09:23:03 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524183.6645] device (wlan0): supplicant interface state: disconnected -> scanning
+déc. 12 09:23:03 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524183.6646] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+déc. 12 09:23:04 Nerenaldo4-kali Tor[961]: Problem bootstrapping. Stuck at 30% (loading_status): Loading networkstatus consensus. (No route to host; NOROUTE; count 1; recommendation warn; host 0A96A51DAF0877027FBCF4592FBC452DC469CA9A at 162.19.79.247:9000)
+déc. 12 09:23:04 Nerenaldo4-kali Tor[961]: Problem bootstrapping. Stuck at 30% (loading_status): Loading networkstatus consensus. (No route to host; NOROUTE; count 2; recommendation warn; host 7BE683E65D48141321C5ED92F075C55364AC7123 at 193.23.244.244:443)
+déc. 12 09:23:04 Nerenaldo4-kali Tor[961]: 1 connections have failed:
+déc. 12 09:23:04 Nerenaldo4-kali Tor[961]:  1 connections died in state connect()ing with SSL state (No SSL object)
+déc. 12 09:23:04 Nerenaldo4-kali Tor[961]: Problem bootstrapping. Stuck at 30% (loading_status): Loading networkstatus consensus. (No route to host; NOROUTE; count 3; recommendation warn; host 4B7F4885DC18018C0B870DD7D8415E265099C187 at 142.132.204.112:4443)
+déc. 12 09:23:04 Nerenaldo4-kali Tor[961]: 2 connections have failed:
+déc. 12 09:23:04 Nerenaldo4-kali Tor[961]:  2 connections died in state connect()ing with SSL state (No SSL object)
+déc. 12 09:23:07 Nerenaldo4-kali Tor[961]: Problem bootstrapping. Stuck at 30% (loading_status): Loading networkstatus consensus. (No route to host; NOROUTE; count 4; recommendation warn; host 2A82DD0F42F479F2F55006D3C7AA052A84071ECB at 81.201.202.101:9001)
+déc. 12 09:23:07 Nerenaldo4-kali Tor[961]: 3 connections have failed:
+déc. 12 09:23:07 Nerenaldo4-kali Tor[961]:  3 connections died in state connect()ing with SSL state (No SSL object)
+déc. 12 09:23:07 Nerenaldo4-kali Tor[961]: Problem bootstrapping. Stuck at 30% (loading_status): Loading networkstatus consensus. (No route to host; NOROUTE; count 5; recommendation warn; host 46C9E51F4A28238CBB413E5D7F064ACB7595CFA9 at 45.132.126.28:9000)
+déc. 12 09:23:07 Nerenaldo4-kali Tor[961]: 4 connections have failed:
+déc. 12 09:23:07 Nerenaldo4-kali Tor[961]:  4 connections died in state connect()ing with SSL state (No SSL object)
+déc. 12 09:23:10 Nerenaldo4-kali Tor[961]: Problem bootstrapping. Stuck at 30% (loading_status): Loading networkstatus consensus. (No route to host; NOROUTE; count 6; recommendation warn; host C6BAD2390A255AA204827E6639201CDD38A51296 at 80.200.4.100:9001)
+déc. 12 09:23:10 Nerenaldo4-kali Tor[961]: 5 connections have failed:
+déc. 12 09:23:10 Nerenaldo4-kali Tor[961]:  5 connections died in state connect()ing with SSL state (No SSL object)
+déc. 12 09:23:10 Nerenaldo4-kali Tor[961]: Problem bootstrapping. Stuck at 30% (loading_status): Loading networkstatus consensus. (No route to host; NOROUTE; count 7; recommendation warn; host AC00AEBA1AE2A80CF4184C4362157BF91487B902 at 109.238.11.6:443)
+déc. 12 09:23:10 Nerenaldo4-kali Tor[961]: 6 connections have failed:
+déc. 12 09:23:10 Nerenaldo4-kali Tor[961]:  6 connections died in state connect()ing with SSL state (No SSL object)
+déc. 12 09:23:10 Nerenaldo4-kali wpa_supplicant[857]: wlan0: SME: Trying to authenticate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:23:10 Nerenaldo4-kali kernel: wlan0: authenticate with 48:22:54:6b:49:c5 (local address=c4:17:fe:b7:dd:b1)
+déc. 12 09:23:10 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:23:10 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524190.8815] device (wlan0): supplicant interface state: scanning -> authenticating
+déc. 12 09:23:10 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524190.8815] device (p2p-dev-wlan0): supplicant management interface state: scanning -> authenticating
+déc. 12 09:23:11 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 2/3)
+déc. 12 09:23:11 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 3/3)
+déc. 12 09:23:11 Nerenaldo4-kali kernel: wlan0: authentication with 48:22:54:6b:49:c5 timed out
+déc. 12 09:23:11 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524191.4526] device (wlan0): supplicant interface state: authenticating -> disconnected
+déc. 12 09:23:11 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524191.4527] device (p2p-dev-wlan0): supplicant management interface state: authenticating -> disconnected
+déc. 12 09:23:12 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524192.4765] device (wlan0): supplicant interface state: disconnected -> scanning
+déc. 12 09:23:12 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524192.4766] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+déc. 12 09:23:13 Nerenaldo4-kali Tor[961]: Problem bootstrapping. Stuck at 30% (loading_status): Loading networkstatus consensus. (No route to host; NOROUTE; count 8; recommendation warn; host D2F05648A73CB0CBA7D254D8D12BB3181408FBAE at 193.30.122.232:443)
+déc. 12 09:23:13 Nerenaldo4-kali Tor[961]: 7 connections have failed:
+déc. 12 09:23:13 Nerenaldo4-kali Tor[961]:  7 connections died in state connect()ing with SSL state (No SSL object)
+déc. 12 09:23:13 Nerenaldo4-kali Tor[961]: Problem bootstrapping. Stuck at 30% (loading_status): Loading networkstatus consensus. (No route to host; NOROUTE; count 9; recommendation warn; host 99B7D1149FC551C4C8FE327F5F53ABF7B0C9CE24 at 185.82.216.211:9001)
+déc. 12 09:23:13 Nerenaldo4-kali Tor[961]: 8 connections have failed:
+déc. 12 09:23:13 Nerenaldo4-kali Tor[961]:  8 connections died in state connect()ing with SSL state (No SSL object)
+déc. 12 09:23:13 Nerenaldo4-kali Tor[961]: Problem bootstrapping. Stuck at 30% (loading_status): Loading networkstatus consensus. (No route to host; NOROUTE; count 10; recommendation warn; host BD2BC415D5D8AE3C34430E70EC82CF3B0C61BDDF at 185.177.126.118:443)
+déc. 12 09:23:13 Nerenaldo4-kali Tor[961]: 9 connections have failed:
+déc. 12 09:23:13 Nerenaldo4-kali Tor[961]:  9 connections died in state connect()ing with SSL state (No SSL object)
+déc. 12 09:23:13 Nerenaldo4-kali Tor[961]: Problem bootstrapping. Stuck at 30% (loading_status): Loading networkstatus consensus. (No route to host; NOROUTE; count 11; recommendation warn; host E3E42D35F801C9D5AB23584E0025D56FE2B33396 at 216.218.219.41:443)
+déc. 12 09:23:13 Nerenaldo4-kali Tor[961]: 10 connections have failed:
+déc. 12 09:23:13 Nerenaldo4-kali Tor[961]:  10 connections died in state connect()ing with SSL state (No SSL object)
+déc. 12 09:23:16 Nerenaldo4-kali Tor[961]: Problem bootstrapping. Stuck at 30% (loading_status): Loading networkstatus consensus. (No route to host; NOROUTE; count 12; recommendation warn; host 38B0226F4318EEB45D4D6777E18A17B50615F3A5 at 109.70.100.245:80)
+déc. 12 09:23:16 Nerenaldo4-kali Tor[961]: 11 connections have failed:
+déc. 12 09:23:16 Nerenaldo4-kali Tor[961]:  11 connections died in state connect()ing with SSL state (No SSL object)
+déc. 12 09:23:16 Nerenaldo4-kali NetworkManager[762]: <warn>  [1765524196.8844] device (wlan0): link timed out.
+déc. 12 09:23:16 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524196.8849] device (wlan0): state change: activated -> failed (reason 'ssid-not-found', managed-type: 'full')
+déc. 12 09:23:16 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524196.9215] device (wlan0): set-hw-addr: set MAC address to 8E:CD:22:A6:E0:56 (scanning)
+déc. 12 09:23:16 Nerenaldo4-kali NetworkManager[762]: <warn>  [1765524196.9507] device (wlan0): Activation: failed for connection ' WIFI-SINAI  HOTEL'
+déc. 12 09:23:16 Nerenaldo4-kali dbus-daemon[546]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.5' (uid=0 pid=762 comm="/usr/sbin/NetworkManager --no-daemon")
+déc. 12 09:23:16 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524196.9672] manager: NetworkManager state is now CONNECTED_LOCAL
+déc. 12 09:23:16 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524196.9741] device (wlan0): supplicant interface state: scanning -> interface_disabled
+déc. 12 09:23:16 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524196.9745] device (p2p-dev-wlan0): supplicant management interface state: scanning -> interface_disabled
+déc. 12 09:23:16 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524196.9748] device (wlan0): supplicant interface state: interface_disabled -> scanning
+déc. 12 09:23:16 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524196.9749] device (p2p-dev-wlan0): supplicant management interface state: interface_disabled -> scanning
+déc. 12 09:23:17 Nerenaldo4-kali systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+░░ Subject: L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer.
+déc. 12 09:23:17 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524197.0270] device (wlan0): state change: failed -> disconnected (reason 'none', managed-type: 'full')
+déc. 12 09:23:17 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524197.0287] dhcp4 (wlan0): canceled DHCP transaction
+déc. 12 09:23:17 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524197.0287] dhcp4 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+déc. 12 09:23:17 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524197.0288] dhcp4 (wlan0): state changed no lease
+déc. 12 09:23:17 Nerenaldo4-kali wpa_supplicant[857]: wlan0: Reject scan trigger since one is already pending
+déc. 12 09:23:17 Nerenaldo4-kali dbus-daemon[546]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+déc. 12 09:23:17 Nerenaldo4-kali systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+░░ Subject: L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage, avec le résultat done.
+déc. 12 09:23:18 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524198.1204] device (wlan0): supplicant interface state: scanning -> disconnected
+déc. 12 09:23:18 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524198.1209] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+déc. 12 09:23:18 Nerenaldo4-kali Tor[961]: Problem bootstrapping. Stuck at 30% (loading_status): Loading networkstatus consensus. (Connection timed out; TIMEOUT; count 13; recommendation warn; host BD6A829255CB08E66FBE7D3748363586E46B3810 at 171.25.193.9:80)
+déc. 12 09:23:18 Nerenaldo4-kali Tor[961]: 12 connections have failed:
+déc. 12 09:23:18 Nerenaldo4-kali Tor[961]:  12 connections died in state connect()ing with SSL state (No SSL object)
+déc. 12 09:23:19 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524199.1811] device (wlan0): supplicant interface state: disconnected -> inactive
+déc. 12 09:23:19 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524199.1812] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> inactive
+déc. 12 09:23:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524207.0139] policy: auto-activating connection ' WIFI-SINAI  HOTEL' (5a5e7d14-23b2-4637-a1e1-4a90811b24b8)
+déc. 12 09:23:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524207.0161] device (wlan0): Activation: starting connection ' WIFI-SINAI  HOTEL' (5a5e7d14-23b2-4637-a1e1-4a90811b24b8)
+déc. 12 09:23:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524207.0164] device (wlan0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+déc. 12 09:23:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524207.0167] manager: NetworkManager state is now CONNECTING
+déc. 12 09:23:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524207.0560] device (wlan0): set-hw-addr: reset MAC address to C4:17:FE:B7:DD:B1 (preserve)
+déc. 12 09:23:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524207.0672] device (wlan0): state change: prepare -> config (reason 'none', managed-type: 'full')
+déc. 12 09:23:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524207.0676] device (wlan0): Activation: (wifi) access point ' WIFI-SINAI  HOTEL' has security, but secrets are required.
+déc. 12 09:23:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524207.0677] device (wlan0): state change: config -> need-auth (reason 'none', managed-type: 'full')
+déc. 12 09:23:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524207.0680] sup-iface[2e096671462c8b0e,0,wlan0]: wps: type pbc start...
+déc. 12 09:23:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524207.0684] device (wlan0): supplicant interface state: inactive -> interface_disabled
+déc. 12 09:23:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524207.0684] device (p2p-dev-wlan0): supplicant management interface state: inactive -> interface_disabled
+déc. 12 09:23:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524207.0699] device (wlan0): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+déc. 12 09:23:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524207.0704] device (wlan0): state change: prepare -> config (reason 'none', managed-type: 'full')
+déc. 12 09:23:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524207.0709] device (wlan0): Activation: (wifi) connection ' WIFI-SINAI  HOTEL' has security, and secrets exist.  No new secrets needed.
+déc. 12 09:23:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524207.0710] Config: added 'ssid' value ' WIFI-SINAI  HOTEL'
+déc. 12 09:23:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524207.0710] Config: added 'scan_ssid' value '1'
+déc. 12 09:23:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524207.0710] Config: added 'bgscan' value 'simple:30:-70:86400'
+déc. 12 09:23:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524207.0711] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+déc. 12 09:23:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524207.0711] Config: added 'auth_alg' value 'OPEN'
+déc. 12 09:23:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524207.0711] Config: added 'psk' value '<hidden>'
+déc. 12 09:23:27 Nerenaldo4-kali wpa_supplicant[857]: wlan0: WPS-CANCEL
+déc. 12 09:23:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524207.0911] device (wlan0): supplicant interface state: interface_disabled -> inactive
+déc. 12 09:23:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524207.0912] device (p2p-dev-wlan0): supplicant management interface state: interface_disabled -> inactive
+déc. 12 09:23:27 Nerenaldo4-kali wpa_supplicant[857]: wlan0: SME: Trying to authenticate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:23:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524207.1263] device (wlan0): supplicant interface state: inactive -> authenticating
+déc. 12 09:23:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524207.1264] device (p2p-dev-wlan0): supplicant management interface state: inactive -> authenticating
+déc. 12 09:23:27 Nerenaldo4-kali kernel: wlan0: authenticate with 48:22:54:6b:49:c5 (local address=c4:17:fe:b7:dd:b1)
+déc. 12 09:23:27 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:23:27 Nerenaldo4-kali systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+déc. 12 09:23:27 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 2/3)
+déc. 12 09:23:27 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 3/3)
+déc. 12 09:23:27 Nerenaldo4-kali kernel: wlan0: authentication with 48:22:54:6b:49:c5 timed out
+déc. 12 09:23:27 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-SSID-TEMP-DISABLED id=0 ssid=" WIFI-SINAI  HOTEL" auth_failures=1 duration=10 reason=CONN_FAILED
+déc. 12 09:23:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524207.5608] device (wlan0): supplicant interface state: authenticating -> disconnected
+déc. 12 09:23:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524207.5609] device (p2p-dev-wlan0): supplicant management interface state: authenticating -> disconnected
+déc. 12 09:23:32 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524212.5816] device (wlan0): supplicant interface state: disconnected -> scanning
+déc. 12 09:23:32 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524212.5817] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+déc. 12 09:23:37 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-SSID-REENABLED id=0 ssid=" WIFI-SINAI  HOTEL"
+déc. 12 09:23:51 Nerenaldo4-kali NetworkManager[762]: <warn>  [1765524231.8847] device (wlan0): Activation: (wifi) association took too long, failing activation
+déc. 12 09:23:51 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524231.8848] device (wlan0): state change: config -> failed (reason 'ssid-not-found', managed-type: 'full')
+déc. 12 09:23:51 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524231.8854] manager: NetworkManager state is now CONNECTED_LOCAL
+déc. 12 09:23:51 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524231.9242] device (wlan0): set-hw-addr: set MAC address to 96:26:E8:BB:BE:80 (scanning)
+déc. 12 09:23:51 Nerenaldo4-kali NetworkManager[762]: <warn>  [1765524231.9357] device (wlan0): Activation: failed for connection ' WIFI-SINAI  HOTEL'
+déc. 12 09:23:51 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524231.9360] device (wlan0): supplicant interface state: scanning -> interface_disabled
+déc. 12 09:23:51 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524231.9361] device (p2p-dev-wlan0): supplicant management interface state: scanning -> interface_disabled
+déc. 12 09:23:51 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524231.9373] device (wlan0): state change: failed -> disconnected (reason 'none', managed-type: 'full')
+déc. 12 09:23:51 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524231.9599] device (wlan0): supplicant interface state: interface_disabled -> inactive
+déc. 12 09:23:51 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524231.9612] device (p2p-dev-wlan0): supplicant management interface state: interface_disabled -> inactive
+déc. 12 09:23:58 Nerenaldo4-kali Tor[961]: No circuits are opened. Relaxed timeout for circuit 3 (a General-purpose client 1-hop circuit in state doing handshakes with channel state open) to 118910ms. However, it appears the circuit has timed out anyway.
+déc. 12 09:24:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524260.0107] policy: auto-activating connection ' WIFI-SINAI  HOTEL' (5a5e7d14-23b2-4637-a1e1-4a90811b24b8)
+déc. 12 09:24:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524260.0171] device (wlan0): Activation: starting connection ' WIFI-SINAI  HOTEL' (5a5e7d14-23b2-4637-a1e1-4a90811b24b8)
+déc. 12 09:24:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524260.0177] device (wlan0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+déc. 12 09:24:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524260.0188] manager: NetworkManager state is now CONNECTING
+déc. 12 09:24:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524260.0355] device (wlan0): set-hw-addr: reset MAC address to C4:17:FE:B7:DD:B1 (preserve)
+déc. 12 09:24:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524260.0468] device (wlan0): state change: prepare -> config (reason 'none', managed-type: 'full')
+déc. 12 09:24:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524260.0473] device (wlan0): Activation: (wifi) access point ' WIFI-SINAI  HOTEL' has security, but secrets are required.
+déc. 12 09:24:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524260.0474] device (wlan0): state change: config -> need-auth (reason 'none', managed-type: 'full')
+déc. 12 09:24:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524260.0477] sup-iface[2e096671462c8b0e,0,wlan0]: wps: type pbc start...
+déc. 12 09:24:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524260.0481] device (wlan0): supplicant interface state: inactive -> interface_disabled
+déc. 12 09:24:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524260.0482] device (p2p-dev-wlan0): supplicant management interface state: inactive -> interface_disabled
+déc. 12 09:24:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524260.0528] device (wlan0): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+déc. 12 09:24:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524260.0587] device (wlan0): state change: prepare -> config (reason 'none', managed-type: 'full')
+déc. 12 09:24:20 Nerenaldo4-kali wpa_supplicant[857]: wlan0: WPS-CANCEL
+déc. 12 09:24:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524260.0634] device (wlan0): Activation: (wifi) connection ' WIFI-SINAI  HOTEL' has security, and secrets exist.  No new secrets needed.
+déc. 12 09:24:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524260.0638] Config: added 'ssid' value ' WIFI-SINAI  HOTEL'
+déc. 12 09:24:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524260.0639] Config: added 'scan_ssid' value '1'
+déc. 12 09:24:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524260.0639] Config: added 'bgscan' value 'simple:30:-70:86400'
+déc. 12 09:24:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524260.0642] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+déc. 12 09:24:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524260.0643] Config: added 'auth_alg' value 'OPEN'
+déc. 12 09:24:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524260.0644] Config: added 'psk' value '<hidden>'
+déc. 12 09:24:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524260.0656] device (wlan0): supplicant interface state: interface_disabled -> inactive
+déc. 12 09:24:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524260.0657] device (p2p-dev-wlan0): supplicant management interface state: interface_disabled -> inactive
+déc. 12 09:24:20 Nerenaldo4-kali wpa_supplicant[857]: wlan0: SME: Trying to authenticate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:24:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524260.1080] device (wlan0): supplicant interface state: inactive -> authenticating
+déc. 12 09:24:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524260.1081] device (p2p-dev-wlan0): supplicant management interface state: inactive -> authenticating
+déc. 12 09:24:20 Nerenaldo4-kali kernel: wlan0: authenticate with 48:22:54:6b:49:c5 (local address=c4:17:fe:b7:dd:b1)
+déc. 12 09:24:20 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:24:20 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 2/3)
+déc. 12 09:24:20 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 3/3)
+déc. 12 09:24:20 Nerenaldo4-kali kernel: wlan0: authentication with 48:22:54:6b:49:c5 timed out
+déc. 12 09:24:20 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-SSID-TEMP-DISABLED id=0 ssid=" WIFI-SINAI  HOTEL" auth_failures=1 duration=10 reason=CONN_FAILED
+déc. 12 09:24:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524260.4967] device (wlan0): supplicant interface state: authenticating -> disconnected
+déc. 12 09:24:20 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524260.4968] device (p2p-dev-wlan0): supplicant management interface state: authenticating -> disconnected
+déc. 12 09:24:30 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524270.5219] device (wlan0): supplicant interface state: disconnected -> scanning
+déc. 12 09:24:30 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524270.5233] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+déc. 12 09:24:31 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-SSID-REENABLED id=0 ssid=" WIFI-SINAI  HOTEL"
+déc. 12 09:24:44 Nerenaldo4-kali NetworkManager[762]: <warn>  [1765524284.8855] device (wlan0): Activation: (wifi) association took too long, failing activation
+déc. 12 09:24:44 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524284.8856] device (wlan0): state change: config -> failed (reason 'ssid-not-found', managed-type: 'full')
+déc. 12 09:24:44 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524284.8881] manager: NetworkManager state is now CONNECTED_LOCAL
+déc. 12 09:24:44 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524284.9164] device (wlan0): set-hw-addr: set MAC address to F2:27:92:F5:C7:D6 (scanning)
+déc. 12 09:24:44 Nerenaldo4-kali NetworkManager[762]: <warn>  [1765524284.9275] device (wlan0): Activation: failed for connection ' WIFI-SINAI  HOTEL'
+déc. 12 09:24:44 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524284.9282] device (wlan0): supplicant interface state: scanning -> interface_disabled
+déc. 12 09:24:44 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524284.9286] device (p2p-dev-wlan0): supplicant management interface state: scanning -> interface_disabled
+déc. 12 09:24:44 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524284.9292] device (wlan0): state change: failed -> disconnected (reason 'none', managed-type: 'full')
+déc. 12 09:24:44 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524284.9487] device (wlan0): supplicant interface state: interface_disabled -> inactive
+déc. 12 09:24:44 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524284.9487] device (p2p-dev-wlan0): supplicant management interface state: interface_disabled -> inactive
+déc. 12 09:25:01 Nerenaldo4-kali CRON[37534]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+déc. 12 09:25:01 Nerenaldo4-kali CRON[37536]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+déc. 12 09:25:01 Nerenaldo4-kali CRON[37534]: pam_unix(cron:session): session closed for user root
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.0268] policy: auto-activating connection ' WIFI-SINAI  HOTEL' (5a5e7d14-23b2-4637-a1e1-4a90811b24b8)
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.0288] device (wlan0): Activation: starting connection ' WIFI-SINAI  HOTEL' (5a5e7d14-23b2-4637-a1e1-4a90811b24b8)
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.0291] device (wlan0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.0295] manager: NetworkManager state is now CONNECTING
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.0564] device (wlan0): set-hw-addr: reset MAC address to C4:17:FE:B7:DD:B1 (preserve)
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.0689] device (wlan0): state change: prepare -> config (reason 'none', managed-type: 'full')
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.0711] device (wlan0): Activation: (wifi) access point ' WIFI-SINAI  HOTEL' has security, but secrets are required.
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.0712] device (wlan0): state change: config -> need-auth (reason 'none', managed-type: 'full')
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.0753] sup-iface[2e096671462c8b0e,0,wlan0]: wps: type pbc start...
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.0758] device (wlan0): supplicant interface state: inactive -> interface_disabled
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.0759] device (p2p-dev-wlan0): supplicant management interface state: inactive -> interface_disabled
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.0760] device (wlan0): supplicant interface state: interface_disabled -> inactive
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.0760] device (p2p-dev-wlan0): supplicant management interface state: interface_disabled -> inactive
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.0870] device (wlan0): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.0888] device (wlan0): state change: prepare -> config (reason 'none', managed-type: 'full')
+déc. 12 09:25:27 Nerenaldo4-kali wpa_supplicant[857]: wlan0: WPS-PBC-ACTIVE
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.0996] device (wlan0): Activation: (wifi) connection ' WIFI-SINAI  HOTEL' has security, and secrets exist.  No new secrets needed.
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.0997] Config: added 'ssid' value ' WIFI-SINAI  HOTEL'
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.0998] Config: added 'scan_ssid' value '1'
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.0998] Config: added 'bgscan' value 'simple:30:-70:86400'
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.0998] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.0999] Config: added 'auth_alg' value 'OPEN'
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.0999] Config: added 'psk' value '<hidden>'
+déc. 12 09:25:27 Nerenaldo4-kali wpa_supplicant[857]: wlan0: WPS-CANCEL
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.1179] device (wlan0): supplicant interface state: inactive -> scanning
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.1184] device (p2p-dev-wlan0): supplicant management interface state: inactive -> scanning
+déc. 12 09:25:27 Nerenaldo4-kali wpa_supplicant[857]: wlan0: SME: Trying to authenticate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.1791] device (wlan0): supplicant interface state: scanning -> authenticating
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.1792] device (p2p-dev-wlan0): supplicant management interface state: scanning -> authenticating
+déc. 12 09:25:27 Nerenaldo4-kali kernel: wlan0: authenticate with 48:22:54:6b:49:c5 (local address=c4:17:fe:b7:dd:b1)
+déc. 12 09:25:27 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:25:27 Nerenaldo4-kali wpa_supplicant[857]: wlan0: Trying to associate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:25:27 Nerenaldo4-kali kernel: wlan0: authenticated
+déc. 12 09:25:27 Nerenaldo4-kali kernel: wlan0: associate with 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.1859] device (wlan0): supplicant interface state: authenticating -> associating
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.1859] device (p2p-dev-wlan0): supplicant management interface state: authenticating -> associating
+déc. 12 09:25:27 Nerenaldo4-kali wpa_supplicant[857]: wlan0: Associated with 48:22:54:6b:49:c5
+déc. 12 09:25:27 Nerenaldo4-kali kernel: wlan0: RX AssocResp from 48:22:54:6b:49:c5 (capab=0x1c11 status=0 aid=6)
+déc. 12 09:25:27 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+déc. 12 09:25:27 Nerenaldo4-kali kernel: wlan0: associated
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.2138] device (wlan0): supplicant interface state: associating -> associated
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.2139] device (p2p-dev-wlan0): supplicant management interface state: associating -> associated
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.3074] device (wlan0): supplicant interface state: associated -> 4way_handshake
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.3074] device (p2p-dev-wlan0): supplicant management interface state: associated -> 4way_handshake
+déc. 12 09:25:27 Nerenaldo4-kali wpa_supplicant[857]: wlan0: WPA: Key negotiation completed with 48:22:54:6b:49:c5 [PTK=CCMP GTK=CCMP]
+déc. 12 09:25:27 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-CONNECTED - Connection to 48:22:54:6b:49:c5 completed [id=0 id_str=]
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.3711] device (wlan0): supplicant interface state: 4way_handshake -> completed
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.3712] device (wlan0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network " WIFI-SINAI  HOTEL"
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.3712] device (p2p-dev-wlan0): supplicant management interface state: 4way_handshake -> completed
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.3722] device (wlan0): state change: config -> ip-config (reason 'none', managed-type: 'full')
+déc. 12 09:25:27 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524327.3738] dhcp4 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+déc. 12 09:25:30 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524330.1361] dhcp4 (wlan0): state changed new lease, address=192.168.0.121, acd pending
+déc. 12 09:25:30 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524330.3084] dhcp4 (wlan0): state changed new lease, address=192.168.0.121
+déc. 12 09:25:30 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524330.3111] policy: set ' WIFI-SINAI  HOTEL' (wlan0) as default for IPv4 routing and DNS
+déc. 12 09:25:30 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524330.4051] device (wlan0): state change: ip-config -> ip-check (reason 'none', managed-type: 'full')
+déc. 12 09:25:30 Nerenaldo4-kali dbus-daemon[546]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.5' (uid=0 pid=762 comm="/usr/sbin/NetworkManager --no-daemon")
+déc. 12 09:25:30 Nerenaldo4-kali systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+░░ Subject: L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer.
+déc. 12 09:25:30 Nerenaldo4-kali dbus-daemon[546]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+déc. 12 09:25:30 Nerenaldo4-kali systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+░░ Subject: L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage, avec le résultat done.
+déc. 12 09:25:30 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524330.4638] device (wlan0): state change: ip-check -> secondaries (reason 'none', managed-type: 'full')
+déc. 12 09:25:30 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524330.4642] device (wlan0): state change: secondaries -> activated (reason 'none', managed-type: 'full')
+déc. 12 09:25:30 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524330.4649] manager: NetworkManager state is now CONNECTED_SITE
+déc. 12 09:25:30 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524330.4657] device (wlan0): Activation: successful, device activated.
+déc. 12 09:25:30 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524330.4666] manager: NetworkManager state is now CONNECTED_GLOBAL
+déc. 12 09:25:31 Nerenaldo4-kali kernel: [UFW BLOCK] IN=wlan0 OUT= MAC=c4:17:fe:b7:dd:b1:48:22:54:6b:49:c5:08:00 SRC=142.250.153.84 DST=192.168.0.121 LEN=125 TOS=0x00 PREC=0x60 TTL=118 ID=18942 PROTO=TCP SPT=443 DPT=36198 WINDOW=1030 RES=0x00 ACK PSH URGP=0 
+déc. 12 09:25:36 Nerenaldo4-kali kernel: [UFW BLOCK] IN=wlan0 OUT= MAC=c4:17:fe:b7:dd:b1:48:22:54:6b:49:c5:08:00 SRC=142.250.153.84 DST=192.168.0.121 LEN=108 TOS=0x00 PREC=0x60 TTL=118 ID=18943 PROTO=TCP SPT=443 DPT=36198 WINDOW=1030 RES=0x00 ACK PSH URGP=0 
+déc. 12 09:25:40 Nerenaldo4-kali systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+déc. 12 09:25:41 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-BEACON-LOSS
+déc. 12 09:25:42 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-DISCONNECTED bssid=48:22:54:6b:49:c5 reason=4 locally_generated=1
+déc. 12 09:25:42 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+déc. 12 09:25:42 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524342.5106] device (wlan0): supplicant interface state: completed -> disconnected
+déc. 12 09:25:42 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524342.5107] device (p2p-dev-wlan0): supplicant management interface state: completed -> disconnected
+déc. 12 09:25:42 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524342.6071] device (wlan0): supplicant interface state: disconnected -> scanning
+déc. 12 09:25:42 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524342.6072] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+déc. 12 09:25:43 Nerenaldo4-kali wpa_supplicant[857]: wlan0: SME: Trying to authenticate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:25:43 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524343.7068] device (wlan0): supplicant interface state: scanning -> authenticating
+déc. 12 09:25:43 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524343.7069] device (p2p-dev-wlan0): supplicant management interface state: scanning -> authenticating
+déc. 12 09:25:43 Nerenaldo4-kali kernel: wlan0: authenticate with 48:22:54:6b:49:c5 (local address=c4:17:fe:b7:dd:b1)
+déc. 12 09:25:43 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:25:43 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 2/3)
+déc. 12 09:25:43 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 3/3)
+déc. 12 09:25:43 Nerenaldo4-kali kernel: wlan0: authentication with 48:22:54:6b:49:c5 timed out
+déc. 12 09:25:44 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524344.0087] device (wlan0): supplicant interface state: authenticating -> disconnected
+déc. 12 09:25:44 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524344.0088] device (p2p-dev-wlan0): supplicant management interface state: authenticating -> disconnected
+déc. 12 09:25:44 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524344.5266] device (wlan0): supplicant interface state: disconnected -> scanning
+déc. 12 09:25:44 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524344.5267] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+déc. 12 09:25:57 Nerenaldo4-kali NetworkManager[762]: <warn>  [1765524357.8845] device (wlan0): link timed out.
+déc. 12 09:25:57 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524357.8852] device (wlan0): state change: activated -> failed (reason 'ssid-not-found', managed-type: 'full')
+déc. 12 09:25:57 Nerenaldo4-kali NetworkManager[762]: <warn>  [1765524357.8863] device (wlan0): Activation: failed for connection ' WIFI-SINAI  HOTEL'
+déc. 12 09:25:57 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524357.8880] manager: NetworkManager state is now CONNECTED_LOCAL
+déc. 12 09:25:57 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524357.8905] device (wlan0): state change: failed -> disconnected (reason 'none', managed-type: 'full')
+déc. 12 09:25:57 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524357.8933] dhcp4 (wlan0): canceled DHCP transaction
+déc. 12 09:25:57 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524357.8936] dhcp4 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+déc. 12 09:25:57 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524357.8937] dhcp4 (wlan0): state changed no lease
+déc. 12 09:25:57 Nerenaldo4-kali dbus-daemon[546]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.5' (uid=0 pid=762 comm="/usr/sbin/NetworkManager --no-daemon")
+déc. 12 09:25:57 Nerenaldo4-kali systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+░░ Subject: L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer.
+déc. 12 09:25:57 Nerenaldo4-kali dbus-daemon[546]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+déc. 12 09:25:57 Nerenaldo4-kali systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+░░ Subject: L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage, avec le résultat done.
+déc. 12 09:25:58 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524358.0251] device (wlan0): set-hw-addr: set MAC address to 8E:A9:B6:4F:D9:E5 (scanning)
+déc. 12 09:25:58 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524358.0371] device (wlan0): supplicant interface state: scanning -> interface_disabled
+déc. 12 09:25:58 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524358.0372] device (p2p-dev-wlan0): supplicant management interface state: scanning -> interface_disabled
+déc. 12 09:25:58 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524358.0970] device (wlan0): supplicant interface state: interface_disabled -> inactive
+déc. 12 09:25:58 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524358.0971] device (p2p-dev-wlan0): supplicant management interface state: interface_disabled -> inactive
+déc. 12 09:25:59 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524359.1534] policy: auto-activating connection ' WIFI-SINAI  HOTEL' (5a5e7d14-23b2-4637-a1e1-4a90811b24b8)
+déc. 12 09:25:59 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524359.1546] device (wlan0): Activation: starting connection ' WIFI-SINAI  HOTEL' (5a5e7d14-23b2-4637-a1e1-4a90811b24b8)
+déc. 12 09:25:59 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524359.1549] device (wlan0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+déc. 12 09:25:59 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524359.1555] manager: NetworkManager state is now CONNECTING
+déc. 12 09:25:59 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524359.1884] device (wlan0): set-hw-addr: reset MAC address to C4:17:FE:B7:DD:B1 (preserve)
+déc. 12 09:25:59 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524359.1995] device (wlan0): state change: prepare -> config (reason 'none', managed-type: 'full')
+déc. 12 09:25:59 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524359.2001] device (wlan0): Activation: (wifi) access point ' WIFI-SINAI  HOTEL' has security, but secrets are required.
+déc. 12 09:25:59 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524359.2001] device (wlan0): state change: config -> need-auth (reason 'none', managed-type: 'full')
+déc. 12 09:25:59 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524359.2004] sup-iface[2e096671462c8b0e,0,wlan0]: wps: type pbc start...
+déc. 12 09:25:59 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524359.2009] device (wlan0): supplicant interface state: inactive -> interface_disabled
+déc. 12 09:25:59 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524359.2009] device (p2p-dev-wlan0): supplicant management interface state: inactive -> interface_disabled
+déc. 12 09:25:59 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524359.2024] device (wlan0): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+déc. 12 09:25:59 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524359.2028] device (wlan0): state change: prepare -> config (reason 'none', managed-type: 'full')
+déc. 12 09:25:59 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524359.2033] device (wlan0): Activation: (wifi) connection ' WIFI-SINAI  HOTEL' has security, and secrets exist.  No new secrets needed.
+déc. 12 09:25:59 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524359.2034] Config: added 'ssid' value ' WIFI-SINAI  HOTEL'
+déc. 12 09:25:59 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524359.2034] Config: added 'scan_ssid' value '1'
+déc. 12 09:25:59 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524359.2034] Config: added 'bgscan' value 'simple:30:-70:86400'
+déc. 12 09:25:59 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524359.2034] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+déc. 12 09:25:59 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524359.2035] Config: added 'auth_alg' value 'OPEN'
+déc. 12 09:25:59 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524359.2035] Config: added 'psk' value '<hidden>'
+déc. 12 09:25:59 Nerenaldo4-kali wpa_supplicant[857]: wlan0: WPS-CANCEL
+déc. 12 09:25:59 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524359.2161] device (wlan0): supplicant interface state: interface_disabled -> inactive
+déc. 12 09:25:59 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524359.2162] device (p2p-dev-wlan0): supplicant management interface state: interface_disabled -> inactive
+déc. 12 09:25:59 Nerenaldo4-kali wpa_supplicant[857]: wlan0: SME: Trying to authenticate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:25:59 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524359.2515] device (wlan0): supplicant interface state: inactive -> authenticating
+déc. 12 09:25:59 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524359.2516] device (p2p-dev-wlan0): supplicant management interface state: inactive -> authenticating
+déc. 12 09:25:59 Nerenaldo4-kali kernel: wlan0: authenticate with 48:22:54:6b:49:c5 (local address=c4:17:fe:b7:dd:b1)
+déc. 12 09:25:59 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:25:59 Nerenaldo4-kali wpa_supplicant[857]: wlan0: Trying to associate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:25:59 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524359.2797] device (wlan0): supplicant interface state: authenticating -> associating
+déc. 12 09:25:59 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524359.2798] device (p2p-dev-wlan0): supplicant management interface state: authenticating -> associating
+déc. 12 09:25:59 Nerenaldo4-kali kernel: wlan0: authenticated
+déc. 12 09:25:59 Nerenaldo4-kali kernel: wlan0: associate with 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:25:59 Nerenaldo4-kali kernel: wlan0: associate with 48:22:54:6b:49:c5 (try 2/3)
+déc. 12 09:25:59 Nerenaldo4-kali kernel: wlan0: associate with 48:22:54:6b:49:c5 (try 3/3)
+déc. 12 09:25:59 Nerenaldo4-kali kernel: wlan0: association with 48:22:54:6b:49:c5 timed out
+déc. 12 09:25:59 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524359.7085] device (wlan0): supplicant interface state: associating -> disconnected
+déc. 12 09:25:59 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524359.7086] device (p2p-dev-wlan0): supplicant management interface state: associating -> disconnected
+déc. 12 09:26:00 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524360.7183] device (wlan0): supplicant interface state: disconnected -> scanning
+déc. 12 09:26:00 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524360.7184] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+déc. 12 09:26:04 Nerenaldo4-kali Tor[961]: Problem bootstrapping. Stuck at 30% (loading_status): Loading networkstatus consensus. (DONE; DONE; count 14; recommendation warn; host 048FEDBCDAA2F5AD70CC90275EB4434676B408C5 at 152.53.115.49:9002)
+déc. 12 09:26:04 Nerenaldo4-kali Tor[961]: 14 connections have failed:
+déc. 12 09:26:04 Nerenaldo4-kali Tor[961]:  13 connections died in state connect()ing with SSL state (No SSL object)
+déc. 12 09:26:04 Nerenaldo4-kali Tor[961]:  1 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+déc. 12 09:26:07 Nerenaldo4-kali systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+déc. 12 09:26:12 Nerenaldo4-kali dbus-daemon[546]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.87' (uid=1000 pid=38193 comm="hostnamectl")
+déc. 12 09:26:12 Nerenaldo4-kali systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+░░ Subject: L'unité (unit) systemd-hostnamed.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) systemd-hostnamed.service a commencé à démarrer.
+déc. 12 09:26:12 Nerenaldo4-kali systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+░░ Subject: L'unité (unit) systemd-hostnamed.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) systemd-hostnamed.service a terminé son démarrage, avec le résultat done.
+déc. 12 09:26:12 Nerenaldo4-kali dbus-daemon[546]: [system] Successfully activated service 'org.freedesktop.hostname1'
+déc. 12 09:26:24 Nerenaldo4-kali NetworkManager[762]: <warn>  [1765524384.8847] device (wlan0): Activation: (wifi) association took too long
+déc. 12 09:26:24 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524384.8848] device (wlan0): state change: config -> need-auth (reason 'none', managed-type: 'full')
+déc. 12 09:26:24 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524384.8853] sup-iface[2e096671462c8b0e,0,wlan0]: wps: type pbc start...
+déc. 12 09:26:24 Nerenaldo4-kali NetworkManager[762]: <warn>  [1765524384.8857] device (wlan0): Activation: (wifi) asking for new secrets
+déc. 12 09:26:24 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524384.8879] device (wlan0): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+déc. 12 09:26:24 Nerenaldo4-kali wpa_supplicant[857]: wlan0: WPS-CANCEL
+déc. 12 09:26:24 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524384.8953] device (wlan0): state change: prepare -> config (reason 'none', managed-type: 'full')
+déc. 12 09:26:24 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524384.8979] device (wlan0): Activation: (wifi) connection ' WIFI-SINAI  HOTEL' has security, and secrets exist.  No new secrets needed.
+déc. 12 09:26:24 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524384.8980] Config: added 'ssid' value ' WIFI-SINAI  HOTEL'
+déc. 12 09:26:24 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524384.8980] Config: added 'scan_ssid' value '1'
+déc. 12 09:26:24 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524384.8980] Config: added 'bgscan' value 'simple:30:-70:86400'
+déc. 12 09:26:24 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524384.8981] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+déc. 12 09:26:24 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524384.8981] Config: added 'auth_alg' value 'OPEN'
+déc. 12 09:26:24 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524384.8981] Config: added 'psk' value '<hidden>'
+déc. 12 09:26:42 Nerenaldo4-kali systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit systemd-hostnamed.service has successfully entered the 'dead' state.
+déc. 12 09:26:49 Nerenaldo4-kali NetworkManager[762]: <warn>  [1765524409.8847] device (wlan0): Activation: (wifi) association took too long, failing activation
+déc. 12 09:26:49 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524409.8848] device (wlan0): state change: config -> failed (reason 'ssid-not-found', managed-type: 'full')
+déc. 12 09:26:49 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524409.8857] manager: NetworkManager state is now CONNECTED_LOCAL
+déc. 12 09:26:49 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-DSCP-POLICY clear_all
+déc. 12 09:26:49 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524409.9416] device (wlan0): set-hw-addr: set MAC address to 2E:B1:CE:13:4C:BE (scanning)
+déc. 12 09:26:49 Nerenaldo4-kali NetworkManager[762]: <warn>  [1765524409.9526] device (wlan0): Activation: failed for connection ' WIFI-SINAI  HOTEL'
+déc. 12 09:26:49 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524409.9529] device (wlan0): supplicant interface state: scanning -> disconnected
+déc. 12 09:26:49 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524409.9530] device (p2p-dev-wlan0): supplicant management interface state: scanning -> disconnected
+déc. 12 09:26:49 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524409.9531] device (wlan0): supplicant interface state: disconnected -> interface_disabled
+déc. 12 09:26:49 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524409.9532] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> interface_disabled
+déc. 12 09:26:49 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524409.9536] device (wlan0): state change: failed -> disconnected (reason 'none', managed-type: 'full')
+déc. 12 09:26:49 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524409.9629] device (wlan0): supplicant interface state: interface_disabled -> disconnected
+déc. 12 09:26:49 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524409.9630] device (p2p-dev-wlan0): supplicant management interface state: interface_disabled -> disconnected
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.0152] policy: auto-activating connection ' WIFI-SINAI  HOTEL' (5a5e7d14-23b2-4637-a1e1-4a90811b24b8)
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.0176] device (wlan0): Activation: starting connection ' WIFI-SINAI  HOTEL' (5a5e7d14-23b2-4637-a1e1-4a90811b24b8)
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.0185] device (wlan0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.0195] manager: NetworkManager state is now CONNECTING
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.0529] device (wlan0): set-hw-addr: reset MAC address to C4:17:FE:B7:DD:B1 (preserve)
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.0639] device (wlan0): state change: prepare -> config (reason 'none', managed-type: 'full')
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.0644] device (wlan0): Activation: (wifi) access point ' WIFI-SINAI  HOTEL' has security, but secrets are required.
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.0644] device (wlan0): state change: config -> need-auth (reason 'none', managed-type: 'full')
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.0647] sup-iface[2e096671462c8b0e,0,wlan0]: wps: type pbc start...
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.0651] device (wlan0): supplicant interface state: disconnected -> interface_disabled
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.0652] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> interface_disabled
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.0667] device (wlan0): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.0672] device (wlan0): state change: prepare -> config (reason 'none', managed-type: 'full')
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.0677] device (wlan0): Activation: (wifi) connection ' WIFI-SINAI  HOTEL' has security, and secrets exist.  No new secrets needed.
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.0678] Config: added 'ssid' value ' WIFI-SINAI  HOTEL'
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.0678] Config: added 'scan_ssid' value '1'
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.0678] Config: added 'bgscan' value 'simple:30:-70:86400'
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.0678] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.0679] Config: added 'auth_alg' value 'OPEN'
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.0679] Config: added 'psk' value '<hidden>'
+déc. 12 09:27:01 Nerenaldo4-kali wpa_supplicant[857]: wlan0: WPS-CANCEL
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.0798] device (wlan0): supplicant interface state: interface_disabled -> disconnected
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.0799] device (p2p-dev-wlan0): supplicant management interface state: interface_disabled -> disconnected
+déc. 12 09:27:01 Nerenaldo4-kali wpa_supplicant[857]: wlan0: SME: Trying to authenticate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.1175] device (wlan0): supplicant interface state: disconnected -> authenticating
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.1176] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> authenticating
+déc. 12 09:27:01 Nerenaldo4-kali wpa_supplicant[857]: wlan0: Trying to associate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:27:01 Nerenaldo4-kali kernel: wlan0: authenticate with 48:22:54:6b:49:c5 (local address=c4:17:fe:b7:dd:b1)
+déc. 12 09:27:01 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:27:01 Nerenaldo4-kali kernel: wlan0: authenticated
+déc. 12 09:27:01 Nerenaldo4-kali kernel: wlan0: associate with 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.1207] device (wlan0): supplicant interface state: authenticating -> associating
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.1208] device (p2p-dev-wlan0): supplicant management interface state: authenticating -> associating
+déc. 12 09:27:01 Nerenaldo4-kali wpa_supplicant[857]: wlan0: Associated with 48:22:54:6b:49:c5
+déc. 12 09:27:01 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+déc. 12 09:27:01 Nerenaldo4-kali kernel: wlan0: RX AssocResp from 48:22:54:6b:49:c5 (capab=0x1c11 status=0 aid=15)
+déc. 12 09:27:01 Nerenaldo4-kali kernel: wlan0: associated
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.1857] device (wlan0): supplicant interface state: associating -> associated
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.1858] device (p2p-dev-wlan0): supplicant management interface state: associating -> associated
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.2797] device (wlan0): supplicant interface state: associated -> 4way_handshake
+déc. 12 09:27:01 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524421.2798] device (p2p-dev-wlan0): supplicant management interface state: associated -> 4way_handshake
+déc. 12 09:27:10 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-BEACON-LOSS
+déc. 12 09:27:11 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-DISCONNECTED bssid=48:22:54:6b:49:c5 reason=4 locally_generated=1
+déc. 12 09:27:11 Nerenaldo4-kali wpa_supplicant[857]: wlan0: WPA: 4-Way Handshake failed - pre-shared key may be incorrect
+déc. 12 09:27:11 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-SSID-TEMP-DISABLED id=0 ssid=" WIFI-SINAI  HOTEL" auth_failures=1 duration=10 reason=WRONG_KEY
+déc. 12 09:27:11 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-SSID-TEMP-DISABLED id=0 ssid=" WIFI-SINAI  HOTEL" auth_failures=2 duration=20 reason=CONN_FAILED
+déc. 12 09:27:11 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+déc. 12 09:27:11 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524431.0204] device (wlan0): supplicant interface state: 4way_handshake -> disconnected
+déc. 12 09:27:11 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524431.0205] device (p2p-dev-wlan0): supplicant management interface state: 4way_handshake -> disconnected
+déc. 12 09:27:11 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524431.1357] device (wlan0): supplicant interface state: disconnected -> scanning
+déc. 12 09:27:11 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524431.1358] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+déc. 12 09:27:25 Nerenaldo4-kali NetworkManager[762]: <warn>  [1765524445.8847] device (wlan0): Activation: (wifi) association took too long
+déc. 12 09:27:25 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524445.8848] device (wlan0): state change: config -> need-auth (reason 'none', managed-type: 'full')
+déc. 12 09:27:25 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524445.8853] sup-iface[2e096671462c8b0e,0,wlan0]: wps: type pbc start...
+déc. 12 09:27:25 Nerenaldo4-kali NetworkManager[762]: <warn>  [1765524445.8857] device (wlan0): Activation: (wifi) asking for new secrets
+déc. 12 09:27:25 Nerenaldo4-kali wpa_supplicant[857]: wlan0: WPS-PBC-ACTIVE
+déc. 12 09:27:25 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524445.8960] device (wlan0): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+déc. 12 09:27:25 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524445.8966] device (wlan0): state change: prepare -> config (reason 'none', managed-type: 'full')
+déc. 12 09:27:25 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524445.8970] device (wlan0): Activation: (wifi) connection ' WIFI-SINAI  HOTEL' has security, and secrets exist.  No new secrets needed.
+déc. 12 09:27:25 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524445.8970] Config: added 'ssid' value ' WIFI-SINAI  HOTEL'
+déc. 12 09:27:25 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524445.8970] Config: added 'scan_ssid' value '1'
+déc. 12 09:27:25 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524445.8971] Config: added 'bgscan' value 'simple:30:-70:86400'
+déc. 12 09:27:25 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524445.8971] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+déc. 12 09:27:25 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524445.8971] Config: added 'auth_alg' value 'OPEN'
+déc. 12 09:27:25 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524445.8971] Config: added 'psk' value '<hidden>'
+déc. 12 09:27:25 Nerenaldo4-kali wpa_supplicant[857]: wlan0: WPS-CANCEL
+déc. 12 09:27:26 Nerenaldo4-kali wpa_supplicant[857]: wlan0: SME: Trying to authenticate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:27:26 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524446.0437] device (wlan0): supplicant interface state: scanning -> authenticating
+déc. 12 09:27:26 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524446.0437] device (p2p-dev-wlan0): supplicant management interface state: scanning -> authenticating
+déc. 12 09:27:26 Nerenaldo4-kali kernel: wlan0: authenticate with 48:22:54:6b:49:c5 (local address=c4:17:fe:b7:dd:b1)
+déc. 12 09:27:26 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:27:26 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 2/3)
+déc. 12 09:27:26 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 3/3)
+déc. 12 09:27:26 Nerenaldo4-kali kernel: wlan0: authentication with 48:22:54:6b:49:c5 timed out
+déc. 12 09:27:26 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-SSID-TEMP-DISABLED id=0 ssid=" WIFI-SINAI  HOTEL" auth_failures=1 duration=10 reason=CONN_FAILED
+déc. 12 09:27:26 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524446.4247] device (wlan0): supplicant interface state: authenticating -> disconnected
+déc. 12 09:27:26 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524446.4248] device (p2p-dev-wlan0): supplicant management interface state: authenticating -> disconnected
+déc. 12 09:27:36 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524456.4454] device (wlan0): supplicant interface state: disconnected -> scanning
+déc. 12 09:27:36 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524456.4455] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+déc. 12 09:27:37 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-SSID-REENABLED id=0 ssid=" WIFI-SINAI  HOTEL"
+déc. 12 09:27:50 Nerenaldo4-kali NetworkManager[762]: <warn>  [1765524470.8853] device (wlan0): Activation: (wifi) association took too long, failing activation
+déc. 12 09:27:50 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524470.8855] device (wlan0): state change: config -> failed (reason 'ssid-not-found', managed-type: 'full')
+déc. 12 09:27:50 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524470.8861] manager: NetworkManager state is now CONNECTED_LOCAL
+déc. 12 09:27:50 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524470.9326] device (wlan0): set-hw-addr: set MAC address to EA:03:80:E4:13:15 (scanning)
+déc. 12 09:27:50 Nerenaldo4-kali NetworkManager[762]: <warn>  [1765524470.9439] device (wlan0): Activation: failed for connection ' WIFI-SINAI  HOTEL'
+déc. 12 09:27:50 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524470.9442] device (wlan0): supplicant interface state: scanning -> interface_disabled
+déc. 12 09:27:50 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524470.9450] device (p2p-dev-wlan0): supplicant management interface state: scanning -> interface_disabled
+déc. 12 09:27:50 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524470.9454] device (wlan0): state change: failed -> disconnected (reason 'none', managed-type: 'full')
+déc. 12 09:27:50 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524470.9577] device (wlan0): supplicant interface state: interface_disabled -> inactive
+déc. 12 09:27:50 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524470.9581] device (p2p-dev-wlan0): supplicant management interface state: interface_disabled -> inactive
+déc. 12 09:28:11 Nerenaldo4-kali Tor[961]: Problem bootstrapping. Stuck at 30% (loading_status): Loading networkstatus consensus. (Network is unreachable; NOROUTE; count 15; recommendation warn; host 74A910646BCEEFBCD2E874FC1DC997430F968145 at 199.58.81.140:443)
+déc. 12 09:28:11 Nerenaldo4-kali Tor[961]: 14 connections have failed:
+déc. 12 09:28:11 Nerenaldo4-kali Tor[961]:  13 connections died in state connect()ing with SSL state (No SSL object)
+déc. 12 09:28:11 Nerenaldo4-kali Tor[961]:  1 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+déc. 12 09:30:06 Nerenaldo4-kali sudo[40072]:    nere4 : TTY=pts/0 ; PWD=/home/nere4/Documents ; USER=root ; COMMAND=/usr/bin/cat /etc/sudoers
+déc. 12 09:30:06 Nerenaldo4-kali sudo[40072]: pam_unix(sudo:session): session opened for user root(uid=0) by nere4(uid=1000)
+déc. 12 09:30:06 Nerenaldo4-kali sudo[40072]: pam_unix(sudo:session): session closed for user root
+déc. 12 09:32:14 Nerenaldo4-kali systemd[1]: Starting man-db.service - Daily man-db regeneration...
+░░ Subject: L'unité (unit) man-db.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) man-db.service a commencé à démarrer.
+déc. 12 09:32:16 Nerenaldo4-kali systemd[1]: man-db.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit man-db.service has successfully entered the 'dead' state.
+déc. 12 09:32:16 Nerenaldo4-kali systemd[1]: Finished man-db.service - Daily man-db regeneration.
+░░ Subject: L'unité (unit) man-db.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) man-db.service a terminé son démarrage, avec le résultat done.
+déc. 12 09:33:44 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524824.5406] device (wlan0): set-hw-addr: set MAC address to 12:F0:A6:72:EE:B2 (scanning)
+déc. 12 09:33:44 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524824.5518] device (wlan0): supplicant interface state: inactive -> interface_disabled
+déc. 12 09:33:44 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524824.5524] device (p2p-dev-wlan0): supplicant management interface state: inactive -> interface_disabled
+déc. 12 09:33:44 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524824.5543] device (wlan0): supplicant interface state: interface_disabled -> inactive
+déc. 12 09:33:44 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524824.5543] device (p2p-dev-wlan0): supplicant management interface state: interface_disabled -> inactive
+déc. 12 09:33:45 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524825.6626] policy: auto-activating connection ' WIFI-SINAI  HOTEL' (5a5e7d14-23b2-4637-a1e1-4a90811b24b8)
+déc. 12 09:33:45 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524825.6645] device (wlan0): Activation: starting connection ' WIFI-SINAI  HOTEL' (5a5e7d14-23b2-4637-a1e1-4a90811b24b8)
+déc. 12 09:33:45 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524825.6652] device (wlan0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+déc. 12 09:33:45 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524825.6656] manager: NetworkManager state is now CONNECTING
+déc. 12 09:33:45 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524825.7031] device (wlan0): set-hw-addr: reset MAC address to C4:17:FE:B7:DD:B1 (preserve)
+déc. 12 09:33:45 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524825.7167] device (wlan0): state change: prepare -> config (reason 'none', managed-type: 'full')
+déc. 12 09:33:45 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524825.7190] device (wlan0): Activation: (wifi) access point ' WIFI-SINAI  HOTEL' has security, but secrets are required.
+déc. 12 09:33:45 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524825.7191] device (wlan0): state change: config -> need-auth (reason 'none', managed-type: 'full')
+déc. 12 09:33:45 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524825.7211] sup-iface[2e096671462c8b0e,0,wlan0]: wps: type pbc start...
+déc. 12 09:33:45 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524825.7216] device (wlan0): supplicant interface state: inactive -> interface_disabled
+déc. 12 09:33:45 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524825.7217] device (p2p-dev-wlan0): supplicant management interface state: inactive -> interface_disabled
+déc. 12 09:33:45 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524825.7246] device (wlan0): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+déc. 12 09:33:45 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524825.7251] device (wlan0): state change: prepare -> config (reason 'none', managed-type: 'full')
+déc. 12 09:33:45 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524825.7256] device (wlan0): Activation: (wifi) connection ' WIFI-SINAI  HOTEL' has security, and secrets exist.  No new secrets needed.
+déc. 12 09:33:45 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524825.7257] Config: added 'ssid' value ' WIFI-SINAI  HOTEL'
+déc. 12 09:33:45 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524825.7257] Config: added 'scan_ssid' value '1'
+déc. 12 09:33:45 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524825.7257] Config: added 'bgscan' value 'simple:30:-70:86400'
+déc. 12 09:33:45 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524825.7258] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+déc. 12 09:33:45 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524825.7258] Config: added 'auth_alg' value 'OPEN'
+déc. 12 09:33:45 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524825.7258] Config: added 'psk' value '<hidden>'
+déc. 12 09:33:45 Nerenaldo4-kali wpa_supplicant[857]: wlan0: WPS-CANCEL
+déc. 12 09:33:45 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524825.7313] device (wlan0): supplicant interface state: interface_disabled -> inactive
+déc. 12 09:33:45 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524825.7314] device (p2p-dev-wlan0): supplicant management interface state: interface_disabled -> inactive
+déc. 12 09:33:45 Nerenaldo4-kali wpa_supplicant[857]: wlan0: SME: Trying to authenticate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:33:45 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524825.7855] device (wlan0): supplicant interface state: inactive -> authenticating
+déc. 12 09:33:45 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524825.7856] device (p2p-dev-wlan0): supplicant management interface state: inactive -> authenticating
+déc. 12 09:33:45 Nerenaldo4-kali kernel: wlan0: authenticate with 48:22:54:6b:49:c5 (local address=c4:17:fe:b7:dd:b1)
+déc. 12 09:33:45 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:33:45 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 2/3)
+déc. 12 09:33:45 Nerenaldo4-kali wpa_supplicant[857]: wlan0: Trying to associate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:33:45 Nerenaldo4-kali kernel: wlan0: authenticated
+déc. 12 09:33:45 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524825.8849] device (wlan0): supplicant interface state: authenticating -> associating
+déc. 12 09:33:45 Nerenaldo4-kali kernel: wlan0: associate with 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:33:45 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524825.8850] device (p2p-dev-wlan0): supplicant management interface state: authenticating -> associating
+déc. 12 09:33:45 Nerenaldo4-kali kernel: wlan0: associate with 48:22:54:6b:49:c5 (try 2/3)
+déc. 12 09:33:46 Nerenaldo4-kali kernel: wlan0: associate with 48:22:54:6b:49:c5 (try 3/3)
+déc. 12 09:33:46 Nerenaldo4-kali kernel: wlan0: association with 48:22:54:6b:49:c5 timed out
+déc. 12 09:33:46 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-SSID-TEMP-DISABLED id=0 ssid=" WIFI-SINAI  HOTEL" auth_failures=1 duration=10 reason=CONN_FAILED
+déc. 12 09:33:46 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524826.0818] device (wlan0): supplicant interface state: associating -> disconnected
+déc. 12 09:33:46 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524826.0820] device (p2p-dev-wlan0): supplicant management interface state: associating -> disconnected
+déc. 12 09:33:56 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524836.0914] device (wlan0): supplicant interface state: disconnected -> scanning
+déc. 12 09:33:56 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524836.0915] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+déc. 12 09:33:57 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-SSID-REENABLED id=0 ssid=" WIFI-SINAI  HOTEL"
+déc. 12 09:33:57 Nerenaldo4-kali wpa_supplicant[857]: wlan0: SME: Trying to authenticate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:33:57 Nerenaldo4-kali kernel: wlan0: authenticate with 48:22:54:6b:49:c5 (local address=c4:17:fe:b7:dd:b1)
+déc. 12 09:33:57 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:33:57 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524837.1802] device (wlan0): supplicant interface state: scanning -> authenticating
+déc. 12 09:33:57 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524837.1803] device (p2p-dev-wlan0): supplicant management interface state: scanning -> authenticating
+déc. 12 09:33:57 Nerenaldo4-kali wpa_supplicant[857]: wlan0: Trying to associate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:33:57 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524837.1834] device (wlan0): supplicant interface state: authenticating -> associating
+déc. 12 09:33:57 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524837.1834] device (p2p-dev-wlan0): supplicant management interface state: authenticating -> associating
+déc. 12 09:33:57 Nerenaldo4-kali kernel: wlan0: authenticated
+déc. 12 09:33:57 Nerenaldo4-kali kernel: wlan0: associate with 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:33:57 Nerenaldo4-kali wpa_supplicant[857]: wlan0: Associated with 48:22:54:6b:49:c5
+déc. 12 09:33:57 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+déc. 12 09:33:57 Nerenaldo4-kali kernel: wlan0: RX AssocResp from 48:22:54:6b:49:c5 (capab=0x1c11 status=0 aid=12)
+déc. 12 09:33:57 Nerenaldo4-kali kernel: wlan0: associated
+déc. 12 09:33:57 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524837.1956] device (wlan0): supplicant interface state: associating -> associated
+déc. 12 09:33:57 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524837.1956] device (p2p-dev-wlan0): supplicant management interface state: associating -> associated
+déc. 12 09:33:57 Nerenaldo4-kali wpa_supplicant[857]: wlan0: WPA: Key negotiation completed with 48:22:54:6b:49:c5 [PTK=CCMP GTK=CCMP]
+déc. 12 09:33:57 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-CONNECTED - Connection to 48:22:54:6b:49:c5 completed [id=0 id_str=]
+déc. 12 09:33:57 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524837.3466] device (wlan0): supplicant interface state: associated -> completed
+déc. 12 09:33:57 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524837.3467] device (wlan0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network " WIFI-SINAI  HOTEL"
+déc. 12 09:33:57 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524837.3467] device (p2p-dev-wlan0): supplicant management interface state: associated -> completed
+déc. 12 09:33:57 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524837.3472] device (wlan0): state change: config -> ip-config (reason 'none', managed-type: 'full')
+déc. 12 09:33:57 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524837.3480] dhcp4 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+déc. 12 09:33:57 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524837.9490] dhcp4 (wlan0): state changed new lease, address=192.168.0.121, acd pending
+déc. 12 09:33:58 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524838.1085] dhcp4 (wlan0): state changed new lease, address=192.168.0.121
+déc. 12 09:33:58 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524838.1122] policy: set ' WIFI-SINAI  HOTEL' (wlan0) as default for IPv4 routing and DNS
+déc. 12 09:33:58 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524838.2153] device (wlan0): state change: ip-config -> ip-check (reason 'none', managed-type: 'full')
+déc. 12 09:33:58 Nerenaldo4-kali dbus-daemon[546]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.5' (uid=0 pid=762 comm="/usr/sbin/NetworkManager --no-daemon")
+déc. 12 09:33:58 Nerenaldo4-kali systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+░░ Subject: L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer.
+déc. 12 09:33:58 Nerenaldo4-kali dbus-daemon[546]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+déc. 12 09:33:58 Nerenaldo4-kali systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+░░ Subject: L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage, avec le résultat done.
+déc. 12 09:33:58 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524838.2862] device (wlan0): state change: ip-check -> secondaries (reason 'none', managed-type: 'full')
+déc. 12 09:33:58 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524838.2866] device (wlan0): state change: secondaries -> activated (reason 'none', managed-type: 'full')
+déc. 12 09:33:58 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524838.2873] manager: NetworkManager state is now CONNECTED_SITE
+déc. 12 09:33:58 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524838.2881] device (wlan0): Activation: successful, device activated.
+déc. 12 09:33:58 Nerenaldo4-kali NetworkManager[762]: <info>  [1765524838.2914] manager: NetworkManager state is now CONNECTED_GLOBAL
+déc. 12 09:34:08 Nerenaldo4-kali systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+déc. 12 09:34:30 Nerenaldo4-kali kernel: [UFW BLOCK] IN=wlan0 OUT= MAC=c4:17:fe:b7:dd:b1:48:22:54:6b:49:c5:08:00 SRC=192.42.116.202 DST=192.168.0.121 LEN=576 TOS=0x00 PREC=0x00 TTL=49 ID=25327 PROTO=TCP SPT=9000 DPT=56506 WINDOW=129 RES=0x00 ACK URGP=0 
+déc. 12 09:35:01 Nerenaldo4-kali CRON[42702]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+déc. 12 09:35:01 Nerenaldo4-kali CRON[42704]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+déc. 12 09:35:01 Nerenaldo4-kali CRON[42702]: pam_unix(cron:session): session closed for user root
+déc. 12 09:35:24 Nerenaldo4-kali sudo[42895]:    nere4 : TTY=pts/0 ; PWD=/home/nere4/Documents ; USER=root ; COMMAND=/usr/bin/netstat -plnt
+déc. 12 09:35:24 Nerenaldo4-kali sudo[42895]: pam_unix(sudo:session): session opened for user root(uid=0) by nere4(uid=1000)
+déc. 12 09:35:24 Nerenaldo4-kali sudo[42895]: pam_unix(sudo:session): session closed for user root
+déc. 12 09:35:24 Nerenaldo4-kali kernel: [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:48:22:54:6b:49:c5:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x16 PREC=0x60 TTL=1 ID=50050 PROTO=2 
+déc. 12 09:35:38 Nerenaldo4-kali Tor[961]: Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+déc. 12 09:35:38 Nerenaldo4-kali Tor[961]: Bootstrapped 80% (ap_conn): Connecting to a relay to build circuits
+déc. 12 09:35:39 Nerenaldo4-kali Tor[961]: Bootstrapped 85% (ap_conn_done): Connected to a relay to build circuits
+déc. 12 09:35:39 Nerenaldo4-kali Tor[961]: Bootstrapped 89% (ap_handshake): Finishing handshake with a relay to build circuits
+déc. 12 09:35:40 Nerenaldo4-kali Tor[961]: Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+déc. 12 09:35:40 Nerenaldo4-kali Tor[961]: Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+déc. 12 09:35:41 Nerenaldo4-kali Tor[961]: Bootstrapped 100% (done): Done
+déc. 12 09:37:29 Nerenaldo4-kali kernel: [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:48:22:54:6b:49:c5:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x1A PREC=0xA0 TTL=1 ID=4000 PROTO=2 
+déc. 12 09:37:46 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-BEACON-LOSS
+déc. 12 09:39:00 Nerenaldo4-kali systemd[1]: Starting phpsessionclean.service - Clean php session files...
+░░ Subject: L'unité (unit) phpsessionclean.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) phpsessionclean.service a commencé à démarrer.
+déc. 12 09:39:01 Nerenaldo4-kali CRON[44698]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+déc. 12 09:39:01 Nerenaldo4-kali CRON[44700]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+déc. 12 09:39:01 Nerenaldo4-kali CRON[44698]: pam_unix(cron:session): session closed for user root
+déc. 12 09:39:01 Nerenaldo4-kali systemd[1]: phpsessionclean.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit phpsessionclean.service has successfully entered the 'dead' state.
+déc. 12 09:39:01 Nerenaldo4-kali systemd[1]: Finished phpsessionclean.service - Clean php session files.
+░░ Subject: L'unité (unit) phpsessionclean.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) phpsessionclean.service a terminé son démarrage, avec le résultat done.
+déc. 12 09:39:04 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-BEACON-LOSS
+déc. 12 09:39:06 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-BEACON-LOSS
+déc. 12 09:39:07 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-DISCONNECTED bssid=48:22:54:6b:49:c5 reason=4 locally_generated=1
+déc. 12 09:39:07 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+déc. 12 09:39:07 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525147.0827] device (wlan0): supplicant interface state: completed -> disconnected
+déc. 12 09:39:07 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525147.0828] device (p2p-dev-wlan0): supplicant management interface state: completed -> disconnected
+déc. 12 09:39:07 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525147.1829] device (wlan0): supplicant interface state: disconnected -> scanning
+déc. 12 09:39:07 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525147.1830] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+déc. 12 09:39:08 Nerenaldo4-kali wpa_supplicant[857]: wlan0: SME: Trying to authenticate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:39:08 Nerenaldo4-kali kernel: wlan0: authenticate with 48:22:54:6b:49:c5 (local address=c4:17:fe:b7:dd:b1)
+déc. 12 09:39:08 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:39:08 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525148.2972] device (wlan0): supplicant interface state: scanning -> authenticating
+déc. 12 09:39:08 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525148.2973] device (p2p-dev-wlan0): supplicant management interface state: scanning -> authenticating
+déc. 12 09:39:08 Nerenaldo4-kali wpa_supplicant[857]: wlan0: Trying to associate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:39:08 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525148.3064] device (wlan0): supplicant interface state: authenticating -> associating
+déc. 12 09:39:08 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525148.3065] device (p2p-dev-wlan0): supplicant management interface state: authenticating -> associating
+déc. 12 09:39:08 Nerenaldo4-kali kernel: wlan0: authenticated
+déc. 12 09:39:08 Nerenaldo4-kali kernel: wlan0: associate with 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:39:08 Nerenaldo4-kali wpa_supplicant[857]: wlan0: Associated with 48:22:54:6b:49:c5
+déc. 12 09:39:08 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+déc. 12 09:39:08 Nerenaldo4-kali kernel: wlan0: RX AssocResp from 48:22:54:6b:49:c5 (capab=0x1c11 status=0 aid=12)
+déc. 12 09:39:08 Nerenaldo4-kali kernel: wlan0: associated
+déc. 12 09:39:08 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525148.3207] device (wlan0): supplicant interface state: associating -> associated
+déc. 12 09:39:08 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525148.3207] device (p2p-dev-wlan0): supplicant management interface state: associating -> associated
+déc. 12 09:39:08 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525148.4302] device (wlan0): supplicant interface state: associated -> 4way_handshake
+déc. 12 09:39:08 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525148.4303] device (p2p-dev-wlan0): supplicant management interface state: associated -> 4way_handshake
+déc. 12 09:39:08 Nerenaldo4-kali wpa_supplicant[857]: wlan0: WPA: Key negotiation completed with 48:22:54:6b:49:c5 [PTK=CCMP GTK=CCMP]
+déc. 12 09:39:08 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-CONNECTED - Connection to 48:22:54:6b:49:c5 completed [id=0 id_str=]
+déc. 12 09:39:08 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525148.4752] device (wlan0): supplicant interface state: 4way_handshake -> completed
+déc. 12 09:39:08 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525148.4756] device (wlan0): ip:dhcp4: restarting
+déc. 12 09:39:08 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525148.4757] dhcp4 (wlan0): canceled DHCP transaction
+déc. 12 09:39:08 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525148.4758] dhcp4 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+déc. 12 09:39:08 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525148.4758] dhcp4 (wlan0): state changed no lease
+déc. 12 09:39:08 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525148.4759] dhcp4 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+déc. 12 09:39:08 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525148.4762] device (p2p-dev-wlan0): supplicant management interface state: 4way_handshake -> completed
+déc. 12 09:39:08 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525148.8082] dhcp4 (wlan0): state changed new lease, address=192.168.0.121, acd pending
+déc. 12 09:39:08 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525148.8089] dhcp4 (wlan0): state changed new lease, address=192.168.0.121
+déc. 12 09:39:08 Nerenaldo4-kali dbus-daemon[546]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.5' (uid=0 pid=762 comm="/usr/sbin/NetworkManager --no-daemon")
+déc. 12 09:39:08 Nerenaldo4-kali systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+░░ Subject: L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer.
+déc. 12 09:39:08 Nerenaldo4-kali dbus-daemon[546]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+déc. 12 09:39:08 Nerenaldo4-kali systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+░░ Subject: L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage, avec le résultat done.
+déc. 12 09:39:18 Nerenaldo4-kali systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+déc. 12 09:39:34 Nerenaldo4-kali kernel: [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:48:22:54:6b:49:c5:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=23485 PROTO=2 
+déc. 12 09:39:47 Nerenaldo4-kali systemd-timesyncd[368]: Contacted time server 196.200.160.123:123 (0.debian.pool.ntp.org).
+déc. 12 09:41:01 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-BEACON-LOSS
+déc. 12 09:41:03 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-BEACON-LOSS
+déc. 12 09:41:04 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-DISCONNECTED bssid=48:22:54:6b:49:c5 reason=4 locally_generated=1
+déc. 12 09:41:04 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+déc. 12 09:41:04 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525264.0946] device (wlan0): supplicant interface state: completed -> disconnected
+déc. 12 09:41:04 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525264.0947] device (p2p-dev-wlan0): supplicant management interface state: completed -> disconnected
+déc. 12 09:41:04 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525264.1870] device (wlan0): supplicant interface state: disconnected -> scanning
+déc. 12 09:41:04 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525264.1870] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+déc. 12 09:41:05 Nerenaldo4-kali wpa_supplicant[857]: wlan0: SME: Trying to authenticate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:41:05 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525265.2759] device (wlan0): supplicant interface state: scanning -> authenticating
+déc. 12 09:41:05 Nerenaldo4-kali kernel: wlan0: authenticate with 48:22:54:6b:49:c5 (local address=c4:17:fe:b7:dd:b1)
+déc. 12 09:41:05 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:41:05 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525265.2777] device (p2p-dev-wlan0): supplicant management interface state: scanning -> authenticating
+déc. 12 09:41:05 Nerenaldo4-kali wpa_supplicant[857]: wlan0: Trying to associate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:41:05 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525265.3361] device (wlan0): supplicant interface state: authenticating -> associating
+déc. 12 09:41:05 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525265.3362] device (p2p-dev-wlan0): supplicant management interface state: authenticating -> associating
+déc. 12 09:41:05 Nerenaldo4-kali kernel: wlan0: authenticated
+déc. 12 09:41:05 Nerenaldo4-kali kernel: wlan0: associate with 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:41:05 Nerenaldo4-kali wpa_supplicant[857]: wlan0: Associated with 48:22:54:6b:49:c5
+déc. 12 09:41:05 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+déc. 12 09:41:05 Nerenaldo4-kali kernel: wlan0: RX AssocResp from 48:22:54:6b:49:c5 (capab=0x1c11 status=0 aid=12)
+déc. 12 09:41:05 Nerenaldo4-kali kernel: wlan0: associated
+déc. 12 09:41:05 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525265.4717] device (wlan0): supplicant interface state: associating -> associated
+déc. 12 09:41:05 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525265.4718] device (p2p-dev-wlan0): supplicant management interface state: associating -> associated
+déc. 12 09:41:06 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-BEACON-LOSS
+déc. 12 09:41:07 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-DISCONNECTED bssid=48:22:54:6b:49:c5 reason=4 locally_generated=1
+déc. 12 09:41:07 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+déc. 12 09:41:07 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525267.0315] device (wlan0): supplicant interface state: associated -> disconnected
+déc. 12 09:41:07 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525267.0316] device (p2p-dev-wlan0): supplicant management interface state: associated -> disconnected
+déc. 12 09:41:07 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525267.1442] device (wlan0): supplicant interface state: disconnected -> scanning
+déc. 12 09:41:07 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525267.1443] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+déc. 12 09:41:08 Nerenaldo4-kali wpa_supplicant[857]: wlan0: SME: Trying to authenticate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:41:08 Nerenaldo4-kali kernel: wlan0: authenticate with 48:22:54:6b:49:c5 (local address=c4:17:fe:b7:dd:b1)
+déc. 12 09:41:08 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525268.2685] device (wlan0): supplicant interface state: scanning -> authenticating
+déc. 12 09:41:08 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:41:08 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525268.2686] device (p2p-dev-wlan0): supplicant management interface state: scanning -> authenticating
+déc. 12 09:41:08 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 2/3)
+déc. 12 09:41:08 Nerenaldo4-kali wpa_supplicant[857]: wlan0: Trying to associate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:41:08 Nerenaldo4-kali kernel: wlan0: authenticated
+déc. 12 09:41:08 Nerenaldo4-kali kernel: wlan0: associate with 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:41:08 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525268.3488] device (wlan0): supplicant interface state: authenticating -> associating
+déc. 12 09:41:08 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525268.3489] device (p2p-dev-wlan0): supplicant management interface state: authenticating -> associating
+déc. 12 09:41:08 Nerenaldo4-kali kernel: wlan0: associate with 48:22:54:6b:49:c5 (try 2/3)
+déc. 12 09:41:08 Nerenaldo4-kali kernel: wlan0: associate with 48:22:54:6b:49:c5 (try 3/3)
+déc. 12 09:41:08 Nerenaldo4-kali wpa_supplicant[857]: wlan0: Associated with 48:22:54:6b:49:c5
+déc. 12 09:41:08 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+déc. 12 09:41:08 Nerenaldo4-kali kernel: wlan0: RX AssocResp from 48:22:54:6b:49:c5 (capab=0x1c11 status=0 aid=12)
+déc. 12 09:41:08 Nerenaldo4-kali kernel: wlan0: associated
+déc. 12 09:41:08 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525268.7250] device (wlan0): supplicant interface state: associating -> associated
+déc. 12 09:41:08 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525268.7251] device (p2p-dev-wlan0): supplicant management interface state: associating -> associated
+déc. 12 09:41:09 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525269.8421] device (wlan0): supplicant interface state: associated -> 4way_handshake
+déc. 12 09:41:09 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525269.8423] device (p2p-dev-wlan0): supplicant management interface state: associated -> 4way_handshake
+déc. 12 09:41:11 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-BEACON-LOSS
+déc. 12 09:41:11 Nerenaldo4-kali wpa_supplicant[857]: wlan0: WPA: Key negotiation completed with 48:22:54:6b:49:c5 [PTK=CCMP GTK=CCMP]
+déc. 12 09:41:11 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-CONNECTED - Connection to 48:22:54:6b:49:c5 completed [id=0 id_str=]
+déc. 12 09:41:11 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525271.9941] device (wlan0): supplicant interface state: 4way_handshake -> completed
+déc. 12 09:41:11 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525271.9944] device (wlan0): ip:dhcp4: restarting
+déc. 12 09:41:11 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525271.9945] dhcp4 (wlan0): canceled DHCP transaction
+déc. 12 09:41:11 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525271.9945] dhcp4 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+déc. 12 09:41:11 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525271.9946] dhcp4 (wlan0): state changed no lease
+déc. 12 09:41:11 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525271.9947] dhcp4 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+déc. 12 09:41:11 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525271.9951] device (p2p-dev-wlan0): supplicant management interface state: 4way_handshake -> completed
+déc. 12 09:41:14 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525274.2018] dhcp4 (wlan0): state changed new lease, address=192.168.0.121, acd pending
+déc. 12 09:41:14 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525274.2023] dhcp4 (wlan0): state changed new lease, address=192.168.0.121
+déc. 12 09:41:14 Nerenaldo4-kali dbus-daemon[546]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.5' (uid=0 pid=762 comm="/usr/sbin/NetworkManager --no-daemon")
+déc. 12 09:41:14 Nerenaldo4-kali systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+░░ Subject: L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer.
+déc. 12 09:41:14 Nerenaldo4-kali dbus-daemon[546]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+déc. 12 09:41:14 Nerenaldo4-kali systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+░░ Subject: L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage, avec le résultat done.
+déc. 12 09:41:15 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-BEACON-LOSS
+déc. 12 09:41:16 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-BEACON-LOSS
+déc. 12 09:41:17 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-BEACON-LOSS
+déc. 12 09:41:24 Nerenaldo4-kali systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+déc. 12 09:41:30 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-BEACON-LOSS
+déc. 12 09:41:31 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-BEACON-LOSS
+déc. 12 09:41:34 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-BEACON-LOSS
+déc. 12 09:41:36 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-BEACON-LOSS
+déc. 12 09:41:37 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-DISCONNECTED bssid=48:22:54:6b:49:c5 reason=4 locally_generated=1
+déc. 12 09:41:37 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+déc. 12 09:41:37 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525297.0711] device (wlan0): supplicant interface state: completed -> disconnected
+déc. 12 09:41:37 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525297.0712] device (p2p-dev-wlan0): supplicant management interface state: completed -> disconnected
+déc. 12 09:41:37 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525297.1689] device (wlan0): supplicant interface state: disconnected -> scanning
+déc. 12 09:41:37 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525297.1689] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> scanning
+déc. 12 09:41:38 Nerenaldo4-kali wpa_supplicant[857]: wlan0: SME: Trying to authenticate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:41:38 Nerenaldo4-kali kernel: wlan0: authenticate with 48:22:54:6b:49:c5 (local address=c4:17:fe:b7:dd:b1)
+déc. 12 09:41:38 Nerenaldo4-kali kernel: wlan0: send auth to 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:41:38 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525298.2854] device (wlan0): supplicant interface state: scanning -> authenticating
+déc. 12 09:41:38 Nerenaldo4-kali wpa_supplicant[857]: wlan0: Trying to associate with 48:22:54:6b:49:c5 (SSID=' WIFI-SINAI  HOTEL' freq=2457 MHz)
+déc. 12 09:41:38 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525298.2855] device (p2p-dev-wlan0): supplicant management interface state: scanning -> authenticating
+déc. 12 09:41:38 Nerenaldo4-kali kernel: wlan0: authenticated
+déc. 12 09:41:38 Nerenaldo4-kali kernel: wlan0: associate with 48:22:54:6b:49:c5 (try 1/3)
+déc. 12 09:41:38 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525298.2906] device (wlan0): supplicant interface state: authenticating -> associating
+déc. 12 09:41:38 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525298.2907] device (p2p-dev-wlan0): supplicant management interface state: authenticating -> associating
+déc. 12 09:41:38 Nerenaldo4-kali wpa_supplicant[857]: wlan0: Associated with 48:22:54:6b:49:c5
+déc. 12 09:41:38 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+déc. 12 09:41:38 Nerenaldo4-kali kernel: wlan0: RX AssocResp from 48:22:54:6b:49:c5 (capab=0x1c11 status=0 aid=12)
+déc. 12 09:41:38 Nerenaldo4-kali kernel: wlan0: associated
+déc. 12 09:41:38 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525298.3031] device (wlan0): supplicant interface state: associating -> associated
+déc. 12 09:41:38 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525298.3032] device (p2p-dev-wlan0): supplicant management interface state: associating -> associated
+déc. 12 09:41:38 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525298.3933] device (wlan0): supplicant interface state: associated -> 4way_handshake
+déc. 12 09:41:38 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525298.3934] device (p2p-dev-wlan0): supplicant management interface state: associated -> 4way_handshake
+déc. 12 09:41:38 Nerenaldo4-kali wpa_supplicant[857]: wlan0: WPA: Key negotiation completed with 48:22:54:6b:49:c5 [PTK=CCMP GTK=CCMP]
+déc. 12 09:41:38 Nerenaldo4-kali wpa_supplicant[857]: wlan0: CTRL-EVENT-CONNECTED - Connection to 48:22:54:6b:49:c5 completed [id=0 id_str=]
+déc. 12 09:41:38 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525298.4404] device (wlan0): supplicant interface state: 4way_handshake -> completed
+déc. 12 09:41:38 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525298.4408] device (wlan0): ip:dhcp4: restarting
+déc. 12 09:41:38 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525298.4417] dhcp4 (wlan0): canceled DHCP transaction
+déc. 12 09:41:38 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525298.4418] dhcp4 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+déc. 12 09:41:38 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525298.4418] dhcp4 (wlan0): state changed no lease
+déc. 12 09:41:38 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525298.4419] dhcp4 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+déc. 12 09:41:38 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525298.4421] device (p2p-dev-wlan0): supplicant management interface state: 4way_handshake -> completed
+déc. 12 09:41:38 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525298.6180] dhcp4 (wlan0): state changed new lease, address=192.168.0.121, acd pending
+déc. 12 09:41:38 Nerenaldo4-kali NetworkManager[762]: <info>  [1765525298.6186] dhcp4 (wlan0): state changed new lease, address=192.168.0.121
+déc. 12 09:41:38 Nerenaldo4-kali dbus-daemon[546]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.5' (uid=0 pid=762 comm="/usr/sbin/NetworkManager --no-daemon")
+déc. 12 09:41:38 Nerenaldo4-kali systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+░░ Subject: L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer.
+déc. 12 09:41:38 Nerenaldo4-kali dbus-daemon[546]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+déc. 12 09:41:38 Nerenaldo4-kali systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+░░ Subject: L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage, avec le résultat done.
