@@ -18,8 +18,7 @@ These skills are essential for system administrators, SOC analysts, and penetrat
 
 
 ## Tools & Files
-- `commands.txt` — contains all commands used  
-- `summary.pdf` — formatted explanation of concepts  
+- `commands.txt` — contains all commands used   
 - `README.md` — methodology and details  
 
 
@@ -27,9 +26,9 @@ These skills are essential for system administrators, SOC analysts, and penetrat
 
 ### 1. User & Group Creation
 Commands used:
-sudo adduser
-sudo groupadd
-sudo usermod
+sudo adduser,
+sudo groupadd,
+sudo usermod,
 
 ### 2. File Ownership  
 Use of:
@@ -37,17 +36,17 @@ chown user:group file
 
 ### 3. Permission Management  
 Applied using numeric and symbolic forms:
-chmod 755 file
-chmod u+rwx,g+r,o-r file
+(chmod 755 file),
+(chmod u+rwx,g+r,o-r file)
 
 ### 4. Verification  
 Checked using:
-ls -l
-id username
-groups
+(ls -l),
+(id username),
+(groups).
 
 ### 5. Documentation  
-All commands were stored in `commands.txt`, and concepts summarized in `summary.pdf`.
+All commands were stored in `commands.txt`.
 
 
 ## Summary  
