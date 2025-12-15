@@ -17,7 +17,6 @@ This project focuses on using Sysmon to enhance Windows visibility and detect ma
 - **Sysmon**  
 - **Sysmon Config File (`sysmon-config.xml`)**  
 - **JSON Log Output (`suspicious_log.json`)**  
-- **Detection Report (`detection_report.pdf`)**
 
 
 ## Methodology
@@ -34,10 +33,14 @@ Simulated suspicious behavior:
 ### 3. Analyze Sysmon Events  
 Key event types analyzed:
 - **Event ID 1** – Process creation  
-- **Event ID 3** – Network connections  
+- **Event ID 3** – Network connections
+- **Event ID 4** - Sysmon service state change
+- **Event ID 5** - Process terminated
 - **Event ID 7** – DLL loading  
 - **Event ID 11** – File creation  
 - **Event ID 13/14** – Registry access  
+- **Event ID 16** - Sysmon configuration change
+
 
 ### 4. Document Detection Logic  
 Each detection includes:
