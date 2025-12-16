@@ -1,48 +1,34 @@
-# SIEM Workflow & Use Cases
+# SIEM Workflow
 
-This project outlines a practical SOC workflow for handling alerts, triaging security events, and writing detection use cases.
+## Objective
+Demonstrate understanding of a Security Information and Event Management (SIEM) workflow within a SOC environment.
 
+## SIEM Overview
+A SIEM collects logs from multiple sources, normalizes them, correlates events, and generates alerts for security incidents.
 
-## Objectives
-- Understand SOC L1 and L2 responsibilities  
-- Visualize SIEM alert flow  
-- Define alert triage steps  
-- Create use cases with detection rules  
+## Log Sources
+- Windows Security Event Logs
+- Sysmon Endpoint Logs
+- Network Devices (Firewall, IDS/IPS)
 
+## SOC Workflow
+1. Log Collection from endpoints and network devices
+2. Log normalization and parsing
+3. Event correlation based on rules and patterns
+4. Alert generation
+5. Incident investigation
+6. Incident response and remediation
 
-## Tools & Files
-- `workflow-diagram.png` — SOC workflow visual  
-- `usecases.pdf` — documented detection rules  
+## Example Use Case
+Multiple failed login attempts followed by a successful authentication trigger a brute force alert.
 
+## Analyst Actions
+- Validate the alert
+- Identify affected systems
+- Determine attack scope
+- Escalate or remediate incident
 
-## Methodology
-
-### 1. Create SIEM Workflow Diagram  
-Covers:
-- Alert generation  
-- Triage  
-- Escalation  
-- Investigation  
-- Closure  
-
-### 2. Define Detection Use Cases  
-Each use case includes:
-- Threat description  
-- Log sources  
-- Event IDs  
-- Thresholds  
-- Detection logic  
-- Response steps  
-
-### 3. Simulated Scenarios  
-- Brute force login attempts  
-- Unusual PowerShell command usage  
-- Suspicious network communication  
-
-
-## Summary
-This project demonstrates understanding of:
-- SOC operations  
-- Alert handling  
-- Use case creation  
-- Threat detection principles  
+## Skills Demonstrated
+- SOC operations understanding
+- SIEM workflow design
+- Incident response methodology
