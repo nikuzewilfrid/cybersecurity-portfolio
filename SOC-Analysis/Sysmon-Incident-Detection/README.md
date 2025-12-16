@@ -14,9 +14,15 @@ This project focuses on using Sysmon to enhance Windows visibility and detect ma
 
 
 ## Tools & Files
-- **Sysmon**  
+- **Sysmon(Sysinternals)**
+-  **Windows Event Viewer** 
 - **Sysmon Config File (`sysmon-config.xml`)**  
 - **JSON Log Output (`suspicious_log.json`)**  
+
+
+## Environment
+- Operating System: Windows 10 Pro (Build 17134)
+- Lab Environment: Local virtual machine
 
 
 ## Methodology
@@ -40,6 +46,12 @@ Key event types analyzed:
 - **Event ID 11** – File creation  
 - **Event ID 13/14** – Registry access  
 - **Event ID 16** - Sysmon configuration change
+
+Process creation (Event ID 1) and network connection (Event ID 3) events were not captured due to known limitations of Sysmon on older Windows builds.
+
+
+## Security Relevance
+Even with limited telemetry, Sysmon provided visibility into endpoint behavior and configuration changes, which are critical for incident response.
 
 
 ### 4. Document Detection Logic  
