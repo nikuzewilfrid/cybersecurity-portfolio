@@ -68,13 +68,6 @@ Images/ → Screenshots of commands and results
 - Strong password policy  
 
 
-## Reports
-- **Linux Security Audit Report** (PDF)  
-- **Linux Hardening Report** (PDF)
-
-These reports provide a clear summary for recruiters.
-
-
 ## Skills Demonstrated
 - Linux system administration  
 - Hardening techniques  
