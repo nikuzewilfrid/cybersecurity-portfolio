@@ -12,9 +12,10 @@ The toolkit is built to quickly gather security-relevant information for analysi
 
 
 ## Tools & Files
-- `audit_script.sh` — the Bash script  
-- `output.txt` — captured audit results  
-- `README.md` — documentation  
+- `firewall-check.sh` 
+- `logs-monitor.sh`
+- `system-audit.sh`
+- `README.md` 
 
 
 ## Script Features
