@@ -1,0 +1,27 @@
+# Create a new user
+sudo useradd username
+
+# Set user password
+sudo passwd username
+
+# Create group
+sudo groupadd groupname
+
+# Add user to group
+sudo usermod -aG groupname username
+
+# Change file ownership
+sudo chown user:user file.txt
+
+# Change permissions
+chmod 644 file.txt       #rw-r--r--
+chmod 755 script.sh      #rwxr-xr-x
+
+# View permissions
+lls -l
+
+# View current user
+whoami
+
+# View groups
+groups
