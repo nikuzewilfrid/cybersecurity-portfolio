@@ -14,7 +14,6 @@ This project focuses on analyzing Windows Security logs to identify suspicious a
 ## Tools & Files
 - **Event Viewer** (Windows)  
 - `SecurityLog.evtx` — raw event log file  
-- `findings.pdf` — detailed analysis report  
 
 
 ## Methodology
