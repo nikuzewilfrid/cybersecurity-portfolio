@@ -60,6 +60,8 @@ This portfolio was created to demonstrate:
 - Proficiency with essential tools:  
   Nmap, Nikto, Wireshark, Sysmon, Event Viewer, Bash, Linux CLI
 
+## Certifications
+- Cisco Networking Academy – Introduction to Cybersecurity
 
 ## Contact  
 **Name:** Nikuze Wilfrid  
