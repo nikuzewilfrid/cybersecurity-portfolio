@@ -17,7 +17,7 @@ A medium-interaction honeypot deployed to capture attacker actions and credentia
 
 ## Tools Used
 - Cowrie Honeypot  
-- Linux (Ubuntu/Debian)  
+- Kali Linux 
 - Log parsing tools  
 - Bash  
 
