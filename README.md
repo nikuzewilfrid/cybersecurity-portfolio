@@ -12,7 +12,6 @@ I built this portfolio to demonstrate my practical skills and readiness for real
 - Network Traffic Analysis (DNS/HTTP/TCP/IP)  
 - Linux Hardening & Permission Management  
 - Bash Scripting for Audits  
-- Honeypot Deployment (Cowrie)
 
 
 ## Portfolio Structure
@@ -44,12 +43,6 @@ Core Linux security and hardening practices.
 
 - **Users, Groups & Permissions**  
 - **Bash Audit Toolkit**
-
-
-### Honeypot Project  
-A mini interactive environment simulating real attacker behavior.
-
-- **Cowrie Honeypot Attack Simulation**
 
 
 ## Purpose of This Portfolio  
