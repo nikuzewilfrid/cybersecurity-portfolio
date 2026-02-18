@@ -1,19 +1,19 @@
 === System information ===
 Linux Nerenaldo4-kali 6.12.13-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.12.13-1kali1 (2025-02-11) x86_64 GNU/Linux
  Static hostname: Nerenaldo4-kali
-       Icon name: computer-laptop
-         Chassis: laptop 💻
-      Machine ID: e51840dde4d64f5095ba104ee8b5aef4
-         Boot ID: 7db23b0b50e741918a7ae81426d5e1ff
+       Icon name: XXXXX
+         Chassis: XXXXXXXX
+      Machine ID: XXXXXXXXXXXXXXXXXXXXXXXXXX
+         Boot ID: XXXXXXXXXXXXXXXXXXXXXXXXXX
 Operating System: Kali GNU/Linux Rolling
           Kernel: Linux 6.12.13-amd64
     Architecture: x86-64
- Hardware Vendor: Packard Bell
-  Hardware Model: EasyNote TJ65
-Hardware Version: 0100
-Firmware Version: V1.30
-   Firmware Date: Sun 2009-10-25
-    Firmware Age: 16y 1month 1w 6d
+ Hardware Vendor: XXXXXXXXX
+  Hardware Model: XXXXXX 1234
+Hardware Version: 10000
+Firmware Version: V6.30
+   Firmware Date: Sun 200-10-25
+    Firmware Age: 100y 1month 1w 6d
 === Users ===
 root:x:0:0:root:/root:/usr/bin/zsh
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
@@ -52,10 +52,8 @@ saned:x:112:114::/var/lib/saned:/usr/sbin/nologin
 polkitd:x:991:991:User for polkitd:/:/usr/sbin/nologin
 rtkit:x:113:115:RealtimeKit,,,:/proc:/usr/sbin/nologin
 colord:x:114:116:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
-nere4:x:1000:1000:Wilfrid,,,:/home/nere4:/usr/bin/zsh
 _rpc:x:115:65534::/run/rpcbind:/usr/sbin/nologin
 statd:x:116:65534::/var/lib/nfs:/usr/sbin/nologin
-mysql:x:117:120:MariaDB Server:/nonexistent:/bin/false
 stunnel4:x:990:990:stunnel service system account:/var/run/stunnel4:/usr/sbin/nologin
 geoclue:x:118:121::/var/lib/geoclue:/usr/sbin/nologin
 Debian-snmp:x:119:122::/var/lib/snmp:/bin/false
@@ -92,7 +90,7 @@ voice:x:22:
 cdrom:x:24:nere4
 floppy:x:25:nere4
 tape:x:26:
-sudo:x:27:nere4
+sudo:x:27:XXXX
 audio:x:29:nere4
 dip:x:30:nere4
 www-data:x:33:
@@ -222,80 +220,80 @@ Legend: LOAD   → Reflects whether the unit definition was properly loaded.
 To show all installed unit files use 'systemctl list-unit-files'.
 === Open Ports ===
 Netid State  Recv-Q Send-Q                                        Local Address:Port  Peer Address:PortProcess                                   
-u_str LISTEN 0      4096                /run/systemd/journal/io.systemd.journal 6381             * 0                                             
-u_str LISTEN 0      4096                                      /tmp/.X11-unix/X0 9864             * 0                                             
-u_str LISTEN 0      4096                                    /tmp/.ICE-unix/1204 13033            * 0    users:(("xfce4-session",pid=1204,fd=13)) 
-u_dgr UNCONN 0      0                                 /run/wpa_supplicant/wlan0 10271            * 0                                             
-u_dgr UNCONN 0      0                             /run/user/1000/systemd/notify 12079            * 0                                             
-u_str LISTEN 0      4096                         /run/user/1000/systemd/private 12086            * 0                                             
-u_str LISTEN 0      4096              /run/user/1000/systemd/io.systemd.Manager 12088            * 0                                             
-u_str LISTEN 0      4096                                     /run/user/1000/bus 12099            * 0    users:(("dbus-daemon",pid=1175,fd=3))    
-u_str LISTEN 0      4096                         /run/user/1000/gnupg/S.dirmngr 12102            * 0                                             
-u_str LISTEN 0      5                                    /run/user/1000/gcr/ssh 12103            * 0                                             
-u_str LISTEN 0      5                            /run/user/1000/keyring/control 12108            * 0    users:(("gnome-keyring-d",pid=1181,fd=3))
-u_str LISTEN 0      4096               /run/user/1000/gnupg/S.gpg-agent.browser 12109            * 0                                             
-u_str LISTEN 0      4096                 /run/user/1000/gnupg/S.gpg-agent.extra 12110            * 0                                             
-u_str LISTEN 0      4096                   /run/user/1000/gnupg/S.gpg-agent.ssh 12111            * 0                                             
-u_str LISTEN 0      4096                       /run/user/1000/gnupg/S.gpg-agent 12113            * 0                                             
-u_str LISTEN 0      4096                         /run/user/1000/gnupg/S.keyboxd 12118            * 0                                             
-u_str LISTEN 0      4096                            /run/user/1000/pulse/native 12119            * 0    users:(("pipewire-pulse",pid=1180,fd=3)) 
-u_dgr UNCONN 0      0                                                         * 15366            * 0                                             
-u_str LISTEN 0      4096                              /run/user/1000/pipewire-0 12120            * 0    users:(("pipewire",pid=1176,fd=3))       
-u_str LISTEN 0      4096                      /run/user/1000/pipewire-0-manager 12121            * 0    users:(("pipewire",pid=1176,fd=4))       
-u_str LISTEN 0      4096                  /run/containerd/containerd.sock.ttrpc 10465            * 0                                             
-u_str LISTEN 0      4096          /run/user/1000/speech-dispatcher/speechd.sock 12122            * 0                                             
-u_str LISTEN 0      4096                        /run/containerd/containerd.sock 10467            * 0                                             
-u_str LISTEN 0      4096                           /run/user/1000/openssh_agent 12123            * 0                                             
-u_str LISTEN 0      4096          /run/user/1000/systemd/io.systemd.AskPassword 12125            * 0                                             
-u_str LISTEN 0      4096                                         /run/tor/socks 10493            * 0                                             
-u_str LISTEN 0      4096                                       /run/tor/control 10494            * 0                                             
-u_dgr UNCONN 0      0                                                         * 9550             * 0                                             
-u_str LISTEN 0      128                           /run/user/1000/keyring/pkcs11 13382            * 0    users:(("gnome-keyring-d",pid=1181,fd=9))
-u_str LISTEN 0      4096                            /run/user/1000/at-spi/bus_0 13492            * 0    users:(("dbus-daemon",pid=1290,fd=4))    
-u_str LISTEN 0      4096                         /run/systemd/io.systemd.sysext 7903             * 0                                             
-u_str LISTEN 0      128    /home/nere4/.ssh/agent/s.LE6MeT8uOT.agent.t5ZQ2b9hev 13035            * 0                                             
-u_str LISTEN 0      100                               /run/user/1000/gvfsd/wsdd 71508            * 0    users:(("python3",pid=31023,fd=19))      
-u_str LISTEN 0      80                                  /run/mysqld/mysqld.sock 52689            * 0                                             
-u_dgr UNCONN 0      0                                                         * 15448            * 0    users:(("gvfsd-trash",pid=1762,fd=12))   
-u_dgr UNCONN 0      0                                                         * 12892            * 0    users:(("wireplumber",pid=1179,fd=16))   
-u_str LISTEN 0      4096                            /run/dbus/system_bus_socket 8718             * 0                                             
-u_str LISTEN 0      4096                                       /run/docker.sock 8719             * 0                                             
-u_str LISTEN 0      4096                                  /run/pcscd/pcscd.comm 8720             * 0                                             
-u_str LISTEN 0      4096                             /run/ssh-unix-local/socket 8721             * 0                                             
-u_str LISTEN 0      4096                       /run/systemd/io.systemd.Hostname 8722             * 0                                             
-u_str LISTEN 0      4096                          /run/systemd/io.systemd.Login 8723             * 0                                             
-u_str LISTEN 0      4096                           /var/run/docker/metrics.sock 11328            * 0                                             
-u_str LISTEN 0      4096                                   /run/systemd/private 6215             * 0                                             
-u_str LISTEN 0      4096             /run/systemd/userdb/io.systemd.DynamicUser 6216             * 0                                             
-u_str LISTEN 0      4096                     /run/systemd/io.systemd.ManagedOOM 6217             * 0                                             
-u_str LISTEN 0      4096                        /run/systemd/io.systemd.Manager 6218             * 0                                             
-u_str LISTEN 0      4096           /var/run/docker/libnetwork/dc6339fa412a.sock 11125            * 0                                             
-u_str LISTEN 0      4096                    /run/systemd/io.systemd.AskPassword 6228             * 0                                             
-u_str LISTEN 0      4096                    /run/systemd/io.systemd.Credentials 6229             * 0                                             
-u_str LISTEN 0      4096                   /run/systemd/io.systemd.FactoryReset 6230             * 0                                             
-u_str LISTEN 0      4096                            /run/systemd/journal/stdout 6233             * 0                                             
-u_str LISTEN 0      4096                    /run/systemd/io.systemd.MuteConsole 6234             * 0                                             
-u_seq LISTEN 0      4096                                      /run/udev/control 6235             * 0                                             
-u_str LISTEN 0      4096                              /run/udev/io.systemd.Udev 6237             * 0                                             
-u_str LISTEN 0      4096                                   @/tmp/.ICE-unix/1204 13032            * 0    users:(("xfce4-session",pid=1204,fd=12)) 
-u_dgr UNCONN 0      0                                     @15892004992846954881 5751             * 0                                             
-u_str LISTEN 0      4096                                     @/tmp/.X11-unix/X0 9863             * 0                                             
-u_str UNCONN 0      0                           @printer-applet-lock-user-nere4 14247            * 0    users:(("applet.py",pid=1456,fd=6))      
-udp   UNCONN 0      0                                                   0.0.0.0:38283      0.0.0.0:*    users:(("python3",pid=31023,fd=11))      
-udp   UNCONN 0      0                                                172.17.0.1:3702       0.0.0.0:*    users:(("python3",pid=31023,fd=12))      
-udp   UNCONN 0      0                                           239.255.255.250:3702       0.0.0.0:*    users:(("python3",pid=31023,fd=10))      
-udp   UNCONN 0      0                                             192.168.0.121:3702       0.0.0.0:*    users:(("python3",pid=31023,fd=9))       
-udp   UNCONN 0      0                                           239.255.255.250:3702       0.0.0.0:*    users:(("python3",pid=31023,fd=7))       
-udp   UNCONN 0      0                                                   0.0.0.0:55917      0.0.0.0:*    users:(("python3",pid=31023,fd=8))       
-udp   UNCONN 0      0                                                         *:60763            *:*    users:(("python3",pid=31023,fd=17))      
-udp   UNCONN 0      0                         [fe80::42:20ff:fea1:cb01]%docker0:3702          [::]:*    users:(("python3",pid=31023,fd=18))      
-udp   UNCONN 0      0                                         [ff02::c]%docker0:3702          [::]:*    users:(("python3",pid=31023,fd=16))      
-udp   UNCONN 0      0                          [fe80::d5c:cd8d:d7c4:d417]%wlan0:3702          [::]:*    users:(("python3",pid=31023,fd=15))      
-udp   UNCONN 0      0                                           [ff02::c]%wlan0:3702          [::]:*    users:(("python3",pid=31023,fd=13))      
-udp   UNCONN 0      0                                                         *:46857            *:*    users:(("python3",pid=31023,fd=14))      
-tcp   LISTEN 0      4096                                              127.0.0.1:9050       0.0.0.0:*                                             
-tcp   LISTEN 0      4096                                              127.0.0.1:37643      0.0.0.0:*                                             
-tcp   LISTEN 0      80                                                127.0.0.1:3306       0.0.0.0:*                                             
+u_str LISTEN 0      4096                /run/systemd/journal/io.systemd.journal 6781             * 0                                             
+u_str LISTEN 0      4096                                      /tmp/.X11-unix/X0 9164             * 0                                             
+u_str LISTEN 0      4096                                    /tmp/.ICE-unix/1204 11033            * 0    users:(("xfce4-session",pid=1204,fd=13)) 
+u_dgr UNCONN 0      0                                 /run/wpa_supplicant/wlan0 11271            * 0                                             
+u_dgr UNCONN 0      0                             /run/user/1000/systemd/notify 11079            * 0                                             
+u_str LISTEN 0      4096                         /run/user/1000/systemd/private 11086            * 0                                             
+u_str LISTEN 0      4096              /run/user/1000/systemd/io.systemd.Manager 11088            * 0                                             
+u_str LISTEN 0      4096                                     /run/user/1000/bus 11099            * 0    users:(("dbus-daemon",pid=1175,fd=3))    
+u_str LISTEN 0      4096                         /run/user/1000/gnupg/S.dirmngr 11102            * 0                                             
+u_str LISTEN 0      5                                    /run/user/1000/gcr/ssh 11103            * 0                                             
+u_str LISTEN 0      5                            /run/user/1000/keyring/control 11108            * 0    users:(("gnome-keyring-d",pid=1181,fd=3))
+u_str LISTEN 0      4096               /run/user/1000/gnupg/S.gpg-agent.browser 11109            * 0                                             
+u_str LISTEN 0      4096                 /run/user/1000/gnupg/S.gpg-agent.extra 11110            * 0                                             
+u_str LISTEN 0      4096                   /run/user/1000/gnupg/S.gpg-agent.ssh 11111            * 0                                             
+u_str LISTEN 0      4096                       /run/user/1000/gnupg/S.gpg-agent 11113            * 0                                             
+u_str LISTEN 0      4096                         /run/user/1000/gnupg/S.keyboxd 11118            * 0                                             
+u_str LISTEN 0      4096                            /run/user/1000/pulse/native 11119            * 0    users:(("pipewire-pulse",pid=1180,fd=3)) 
+u_dgr UNCONN 0      0                                                         * 11366            * 0                                             
+u_str LISTEN 0      4096                              /run/user/1000/pipewire-0 11120            * 0    users:(("pipewire",pid=1176,fd=3))       
+u_str LISTEN 0      4096                      /run/user/1000/pipewire-0-manager 1121            * 0    users:(("pipewire",pid=1176,fd=4))       
+u_str LISTEN 0      4096                  /run/containerd/containerd.sock.ttrpc 110465            * 0                                             
+u_str LISTEN 0      4096          /run/user/1000/speech-dispatcher/speechd.sock 11122            * 0                                             
+u_str LISTEN 0      4096                        /run/containerd/containerd.sock 11467            * 0                                             
+u_str LISTEN 0      4096                           /run/user/1000/openssh_agent 11123            * 0                                             
+u_str LISTEN 0      4096          /run/user/1000/systemd/io.systemd.AskPassword 11125            * 0                                             
+u_str LISTEN 0      4096                                         /run/tor/socks 11493            * 0                                             
+u_str LISTEN 0      4096                                       /run/tor/control 11494            * 0                                             
+u_dgr UNCONN 0      0                                                         * 9150             * 0                                             
+u_str LISTEN 0      128                           /run/user/1000/keyring/pkcs11 1382            * 0    users:(("gnome-keyring-d",pid=1181,fd=9))
+u_str LISTEN 0      4096                            /run/user/1000/at-spi/bus_0 3492            * 0    users:(("dbus-daemon",pid=1290,fd=4))    
+u_str LISTEN 0      4096                         /run/systemd/io.systemd.sysext 7103             * 0                                             
+u_str LISTEN 0      128    /home/nere4/.ssh/agent/s.LE6MeT8uOT.agent.t5ZQ2b9hev 11035            * 0                                             
+u_str LISTEN 0      100                               /run/user/1000/gvfsd/wsdd 7508            * 0    users:(("python3",pid=31023,fd=19))      
+u_str LISTEN 0      80                                  /run/mysqld/mysqld.sock 52189            * 0                                             
+u_dgr UNCONN 0      0                                                         * 15148            * 0    users:(("gvfsd-trash",pid=1762,fd=12))   
+u_dgr UNCONN 0      0                                                         * 12192            * 0    users:(("wireplumber",pid=1179,fd=16))   
+u_str LISTEN 0      4096                            /run/dbus/system_bus_socket 87118             * 0                                             
+u_str LISTEN 0      4096                                       /run/docker.sock 8711             * 0                                             
+u_str LISTEN 0      4096                                  /run/pcscd/pcscd.comm 8721             * 0                                             
+u_str LISTEN 0      4096                             /run/ssh-unix-local/socket 87211             * 0                                             
+u_str LISTEN 0      4096                       /run/systemd/io.systemd.Hostname 872211            * 0                                             
+u_str LISTEN 0      4096                          /run/systemd/io.systemd.Login 872311             * 0                                             
+u_str LISTEN 0      4096                           /var/run/docker/metrics.sock 11128            * 0                                             
+u_str LISTEN 0      4096                                   /run/systemd/private 621115             * 0                                             
+u_str LISTEN 0      4096             /run/systemd/userdb/io.systemd.DynamicUser 6116             * 0                                             
+u_str LISTEN 0      4096                     /run/systemd/io.systemd.ManagedOOM 617             * 0                                             
+u_str LISTEN 0      4096                        /run/systemd/io.systemd.Manager 611218             * 0                                             
+u_str LISTEN 0      4096           /var/run/docker/libnetwork/dc6339fa412a.sock 111125            * 0                                             
+u_str LISTEN 0      4096                    /run/systemd/io.systemd.AskPassword 62281             * 0                                             
+u_str LISTEN 0      4096                    /run/systemd/io.systemd.Credentials 62291             * 0                                             
+u_str LISTEN 0      4096                   /run/systemd/io.systemd.FactoryReset 62301             * 0                                             
+u_str LISTEN 0      4096                            /run/systemd/journal/stdout 62331             * 0                                             
+u_str LISTEN 0      4096                    /run/systemd/io.systemd.MuteConsole 62314             * 0                                             
+u_seq LISTEN 0      4096                                      /run/udev/control 62315             * 0                                             
+u_str LISTEN 0      4096                              /run/udev/io.systemd.Udev 6231             * 0                                             
+u_str LISTEN 0      4096                                   @/tmp/.ICE-unix/1204 13012            * 0    users:(("xfce4-session",pid=1204,fd=12)) 
+u_dgr UNCONN 0      0                                     @15892004992846954881 571             * 0                                             
+u_str LISTEN 0      4096                                     @/tmp/.X11-unix/X0 9813             * 0                                             
+u_str UNCONN 0      0                           @printer-applet-lock-user-nere4 14147            * 0    users:(("applet.py",pid=1456,fd=6))      
+udp   UNCONN 0      0                                                   0.0.0.0:38183      0.0.0.0:*    users:(("python3",pid=31023,fd=11))      
+udp   UNCONN 0      0                                                172.17.0.1:3712       0.0.0.0:*    users:(("python3",pid=31023,fd=12))      
+udp   UNCONN 0      0                                           239.255.255.250:3712       0.0.0.0:*    users:(("python3",pid=31023,fd=10))      
+udp   UNCONN 0      0                                             192.168.0.121:3712       0.0.0.0:*    users:(("python3",pid=31023,fd=9))       
+udp   UNCONN 0      0                                           239.255.255.250:3712       0.0.0.0:*    users:(("python3",pid=31023,fd=7))       
+udp   UNCONN 0      0                                                   0.0.0.0:55117      0.0.0.0:*    users:(("python3",pid=31023,fd=8))       
+udp   UNCONN 0      0                                                         *:60163            *:*    users:(("python3",pid=31023,fd=17))      
+udp   UNCONN 0      0                         [fe80::42:20ff:fea1:cb01]%docker0:3712          [::]:*    users:(("python3",pid=31023,fd=18))      
+udp   UNCONN 0      0                                         [ff02::c]%docker0:3712          [::]:*    users:(("python3",pid=31023,fd=16))      
+udp   UNCONN 0      0                          [fe80::d5c:cd8d:d7c4:d417]%wlan0:3712          [::]:*    users:(("python3",pid=31023,fd=15))      
+udp   UNCONN 0      0                                           [ff02::c]%wlan0:3712          [::]:*    users:(("python3",pid=31023,fd=13))      
+udp   UNCONN 0      0                                                         *:4657            *:*    users:(("python3",pid=31023,fd=14))      
+tcp   LISTEN 0      4096                                              127.0.0.1:9150       0.0.0.0:*                                             
+tcp   LISTEN 0      4096                                              127.0.0.1:31643      0.0.0.0:*                                             
+tcp   LISTEN 0      80                                                127.0.0.1:3106       0.0.0.0:*                                             
 #!/bin/bash
 
 echo "=== System information ==="
