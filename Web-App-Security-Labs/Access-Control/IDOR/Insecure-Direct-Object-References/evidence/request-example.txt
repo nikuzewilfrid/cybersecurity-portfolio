@@ -1,0 +1,2 @@
+GET /download?file=report1.txt HTTP/1.1  #Test GET /download?file=report2.txt HTTP/1.1
+Host: target
