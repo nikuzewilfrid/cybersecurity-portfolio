@@ -1,0 +1,6 @@
+POST /my-account/update HTTP/1.1
+Host: target
+Cookie: session=XXXX
+
+username=user  !modified to role=admin
+email=user@example.com
