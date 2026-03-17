@@ -1,0 +1,2 @@
+HTTP/1.1 302 Found
+Location: /login?userId=abc123xyz  !then use GET /my-account?id=abc123xyz HTTP/1.1
