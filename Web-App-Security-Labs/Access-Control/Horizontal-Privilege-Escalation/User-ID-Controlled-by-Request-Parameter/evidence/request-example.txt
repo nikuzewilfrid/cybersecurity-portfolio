@@ -1,0 +1,3 @@
+GET /my-account?id=user1 HTTP/1.1  !modified to GET /my-account?id=user2 HTTP/1.1
+Host: target
+Cookie: session=XXXX
