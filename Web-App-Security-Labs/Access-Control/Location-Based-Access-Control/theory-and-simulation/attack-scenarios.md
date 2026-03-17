@@ -8,9 +8,9 @@ Some applications trust headers such as:
 - X-Real-IP
 
 Example:
-´´´GET /admin HTTP/1.1
+´GET /admin HTTP/1.1
 Host: target
-X-Forwarded-For: 127.0.0.1´´´
+X-Forwarded-For: 127.0.0.1´
 
 Impact:
 
