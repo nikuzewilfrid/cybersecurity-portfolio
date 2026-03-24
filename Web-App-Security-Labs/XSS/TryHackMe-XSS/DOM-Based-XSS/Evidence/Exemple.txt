@@ -1,0 +1,1 @@
+https://target.com/page#<script>alert('DOM XSS')</script>
